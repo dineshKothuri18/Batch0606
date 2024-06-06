@@ -9,6 +9,7 @@ public class DemoClass {
 		System.out.println("Hello Sumanth");
 		System.out.println("Hello Hemanth");
 		System.out.println("Welcome to day 1 class");
+		System.out.println("Day 1 class completed");
 		
 			
 	}
