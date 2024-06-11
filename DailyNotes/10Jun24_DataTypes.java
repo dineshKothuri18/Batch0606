@@ -22,8 +22,8 @@ public class DataTypes{
 
 			String
 
-	1.Create your Details object in a .jsonFile
-	2.Wap to identify the data types, declare variables and print your
+	1.Create your Details object in a .json File
+	2.Write a program to identify the data types, declare variables and print your
 	bio data
 
 
@@ -39,6 +39,18 @@ public class DataTypes{
 	"Address":"Hyderabad",
 
 },
+{
+	"name":"Dinesh",
+	"age":33,
+	"height":"5.6",
+	"gender":"M",	
+	"email":"dinesh@gmail.com",
+	"qualification":"BTech",
+	"Mobile":"8142377077",
+	"Address":"Hyderabad",
+
+},
+
 
 
 
