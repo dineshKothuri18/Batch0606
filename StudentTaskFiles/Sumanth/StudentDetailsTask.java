@@ -1,5 +1,5 @@
 public class StudentDetailsTask{
-	public stativ void main(String[] args){
+	public static void main(String[] args){
 
         String name = "Narasimha";
 	int computers = 85;
@@ -11,9 +11,9 @@ public class StudentDetailsTask{
         int physics = 81;
         int chemistry = 79;
         int english = 84;
-	final int total = 900;
+	final float total = 900f;
        int marks = computers+drawing+m1+m2+m3+m4+physics+chemistry+english;
-       int perc = (marks/900)*100;
+       float perc = (marks/total)*100;
 	System.out.println("Student name is :"+name);
         System.out.println("Total marks is :"+marks);
 	System.out.println("Percentage is : "+perc);
@@ -31,13 +31,13 @@ public class StudentDetailsTask{
         int english1 = 85;
 	//final int = 900;
        int marks1 = computers1+drawing+m11+m21+m31+m41+physics1+chemistry1+english1;
-       int perc1 = (marks1/total)*100;
+       float perc1 = (marks1/total)*100;
 	System.out.println("Student name is :"+name1);
-        System.out.println("Total marks is :"+marks);
+        System.out.println("Total marks is :"+marks1);
 	System.out.println("Percentage is : "+perc1);
 System.out.println("------------------------------------------------------------------");
 		
-		String name = "Sumanth M";
+		String name2 = "Sumanth M";
 	int computers2 = 75;
 	int drawing2 = 80;
 	int m12 = 79;
@@ -47,11 +47,11 @@ System.out.println("------------------------------------------------------------
         int physics2 = 77;
         int chemistry2 = 80;
         int english2 = 79;
-	final int total = 900;
+	//final int total = 900;
        int marks2 = computers2+drawing2+m12+m22+m32+m42+physics2+chemistry2+english2;
-       int perc2 = (marks2/total)*100;
+       float perc2 = (marks2/total)*100;
 	System.out.println("Student name is :"+name2);
-        System.out.println("Total marks is :"+marks);
+        System.out.println("Total marks is :"+marks2);
 	System.out.println("Percentage is : "+perc2);
 System.out.println("------------------------------------------------------------------");
 		
@@ -65,11 +65,11 @@ System.out.println("------------------------------------------------------------
         int physics3 = 80;
         int chemistry3 = 85;
         int english3 = 82;
-       int marks = computers+drawing+m1+m2+m3+m4+physics+chemistry+english;
-       int perc = (marks3/total)*100;
+       int marks3 = computers+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float perc3 = (marks3/total)*100;
 	System.out.println("Student name is :"+name3);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks3);
+	System.out.println("Percentage is : "+perc3);
 System.out.println("------------------------------------------------------------------");
     
 		String name4 = "Vijaya Lakshmi P";
@@ -83,11 +83,11 @@ System.out.println("------------------------------------------------------------
         int chemistry4 = 87;
         int english4 = 86;
 	//final int = 900;
-       int marks = computers4+drawing4+m14+m24+m34+m44+physics4+chemistry4+english4;
-       int perc = (marks4/total)*100;
+       int marks4 = computers4+drawing4+m14+m24+m34+m44+physics4+chemistry4+english4;
+       float perc4 = (marks4/total)*100;
 	System.out.println("Student name is :"+name4);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks4);
+	System.out.println("Percentage is : "+perc4);
 System.out.println("------------------------------------------------------------------");
 	
 	String name5 = "Kavya Sri K";
@@ -101,11 +101,11 @@ System.out.println("------------------------------------------------------------
         int chemistry5 = 81;
         int english5 = 80;
 	//final int = 900;
-       int marks = computers5+drawing5+m15+m25+m35+m45+physics5+chemistry5+english5;
-       int perc = (marks5/total)*100;
+       int marks5 = computers5+drawing5+m15+m25+m35+m45+physics5+chemistry5+english5;
+       float perc5 = (marks5/total)*100;
 	System.out.println("Student name is :"+name5);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks5);
+	System.out.println("Percentage is : "+perc5);
 System.out.println("------------------------------------------------------------------");
 	
 		String name6 = "Akhila D";
@@ -119,17 +119,17 @@ System.out.println("------------------------------------------------------------
         int chemistry6 = 83;
         int english6 = 81;
 	//final int = 900;
-       int marks = computers6+drawing6+m16+m26+m36+m46+physics6+chemistry6+english6;
-       int perc = (marks6/total)*100;
+       int marks6 = computers6+drawing6+m16+m26+m36+m46+physics6+chemistry6+english6;
+       float perc6 = (marks6/total)*100;
 	System.out.println("Student name is :"+name6);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks6);
+	System.out.println("Percentage is : "+perc6);
 System.out.println("------------------------------------------------------------------");
 
 		
 		String name7 = "Sai Charan P";
 	int computers7 = 76;
-	int drawing = 81;
+	int drawing7 = 81;
 	int m17 = 77;
 	int m27 =84;
 	int m37 = 80;
@@ -138,11 +138,11 @@ System.out.println("------------------------------------------------------------
         int chemistry7 = 79;
         int english7 = 80;
 	//final int = 900;
-       int marks = computers7+drawing7+m17+m27+m37+m47+physics7+chemistry7+english7;
-       int perc = (marks7/total)*100;
+       int marks7 = computers7+drawing7+m17+m27+m37+m47+physics7+chemistry7+english7;
+       float perc7 = (marks7/total)*100;
 System.out.println("Student name is :"+name7);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks7);
+	System.out.println("Percentage is : "+perc7);
 System.out.println("------------------------------------------------------------------");
 
 		String name8 = "Sathvika A";
@@ -157,10 +157,10 @@ System.out.println("------------------------------------------------------------
         int english8 = 87;
 	//final int = 900;
        int marks8 = computers8+drawing8+m18+m28+m38+m48+physics8+chemistry8+english8;
-       int perc8 = (marks8/total)*100;
+       float perc8 = (marks8/total)*100;
 	System.out.println("Student name is :"+name8);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks8);
+	System.out.println("Percentage is : "+perc8);
 System.out.println("------------------------------------------------------------------");
 
 
@@ -176,10 +176,10 @@ System.out.println("------------------------------------------------------------
         int english9 = 78;
 	//final int = 900;
        int marks9 = computers9+drawing9+m19+m29+m39+m49+physics9+chemistry9+english9;
-       int perc9 = (marks9/total)*100;
+       float perc9 = (marks9/total)*100;
 	System.out.println("Student name is :"+name9);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks9);
+	System.out.println("Percentage is : "+perc9);
 System.out.println("------------------------------------------------------------------");
 
 		String name0 = "Aparna K";
@@ -193,11 +193,11 @@ System.out.println("------------------------------------------------------------
         int chemistry0 = 84;
         int english0 = 83;
 	//final int = 900;
-       int marks = computers0+drawing0+m10+m20+m30+m40+physics0+chemistry0+english0;
-       int perc = (marks0/900)*100;
+       int marks0 = computers0+drawing0+m10+m20+m30+m40+physics0+chemistry0+english0;
+       float perc0 = (marks0/900)*100;
 	System.out.println("Student name is :"+name0);
-        System.out.println("Total marks is :"+marks);
-	System.out.println("Percentage is : "+perc);
+        System.out.println("Total marks is :"+marks0);
+	System.out.println("Percentage is : "+perc0);
 System.out.println("------------------------------------------------------------------");
 
 	String name11 = "Lakshmi Chaitanya L";
@@ -212,8 +212,8 @@ System.out.println("------------------------------------------------------------
         int english11 = 85;
 	//final int = 900;
        int marks11 = computers11+drawing11+m11+m211+m311+m411+physics11+chemistry11+english11;
-       int perc11 = (marks11/total)*100;
-	System.out.println("Student name is :"+name111);
+       float perc11 = (marks11/total)*100;
+	System.out.println("Student name is :"+name11);
         System.out.println("Total marks is :"+marks11);
 	System.out.println("Percentage is : "+perc11);
 System.out.println("------------------------------------------------------------------");
@@ -230,8 +230,8 @@ System.out.println("------------------------------------------------------------
         int english12 = 79;
 	//final int = 900;
        int marks12 = computers12+drawing12+m112+m212+m312+m412+physics12+chemistry12+english12;
-       int perc12 = (marks12/total)*100;
-	System.out.println("Student name is :"+name112);
+       float perc12 = (marks12/total)*100;
+	System.out.println("Student name is :"+name12);
         System.out.println("Total marks is :"+marks12);
 	System.out.println("Percentage is : "+perc12);
 System.out.println("------------------------------------------------------------------");
@@ -248,8 +248,10 @@ System.out.println("------------------------------------------------------------
         int english13 = 81;
 	//final int = 900;
        int marks13 = computers+drawing+m1+m2+m3+m4+physics+chemistry+english;
-       int perc13 = (marks13/total)*100;
-	System.out.println("Student name is :"+name113);
+       float perc13 = (marks13/total)*100;
+	System.out.println("Student name is :"+name13);
         System.out.println("Total marks is :"+marks13);
 	System.out.println("Percentage is : "+perc13);
 System.out.println("------------------------------------------------------------------");
+}
+}
