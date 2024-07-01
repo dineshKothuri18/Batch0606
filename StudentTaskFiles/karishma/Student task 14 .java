@@ -1,7 +1,7 @@
 public class StudentDetailsTask{
 	public static void main(String[] args){
 
-        String name = "Narasimha";
+        String name = "karishma";
 	int computers = 85;
 	int drawing = 78;
 	int m1 = 88;
@@ -17,7 +17,7 @@ public class StudentDetailsTask{
 	System.out.println("Student name is :"+name);
         System.out.println("Total marks is :"+marks);
 	System.out.println("Percentage is : "+perc);
-      System.out.println("------------------------------------------------------------------");
+      System.out.println("--");
   
 		String name1 = "Hemanth Ch";
 	int computers1 = 90;
@@ -34,9 +34,9 @@ public class StudentDetailsTask{
 	System.out.println("Student name is :"+name1);
         System.out.println("Total marks is :"+marks1);
 	System.out.println("Percentage is : "+perc1);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 		
-		String name2 = "Sumanth M";
+		String name2 = "Sumanth ";
 	int computers2 = 75;
 	int drawing2 = 80;
 	int m12 = 79;
@@ -51,7 +51,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name2);
         System.out.println("Total marks is :"+marks2);
 	System.out.println("Percentage is : "+perc2);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 		
 		String name3 = "Mohith Sai";
 	int computers3 = 82;
@@ -68,7 +68,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name3);
         System.out.println("Total marks is :"+marks3);
 	System.out.println("Percentage is : "+perc3);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
     
 		String name4 = "Vijaya Lakshmi P";
 	int computers4 = 88;
@@ -85,7 +85,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name4);
         System.out.println("Total marks is :"+marks4);
 	System.out.println("Percentage is : "+perc4);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 	
 	String name5 = "Kavya Sri K";
 	int computers5 = 79;
@@ -102,7 +102,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name5);
         System.out.println("Total marks is :"+marks5);
 	System.out.println("Percentage is : "+perc5);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 	
 		String name6 = "Akhila D";
 	int computers6 = 84;
@@ -119,7 +119,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name6);
         System.out.println("Total marks is :"+marks6);
 	System.out.println("Percentage is : "+perc6);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 		
 		String name7 = "Sai Charan P";
@@ -137,7 +137,7 @@ System.out.println("------------------------------------------------------------
 System.out.println("Student name is :"+name7);
         System.out.println("Total marks is :"+marks7);
 	System.out.println("Percentage is : "+perc7);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 		String name8 = "Sathvika A";
 	int computers8 = 89;
@@ -154,10 +154,10 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name8);
         System.out.println("Total marks is :"+marks8);
 	System.out.println("Percentage is : "+perc8);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 
-	String name9 = "Karishma Md";
+	String name9 = "Narsimha";
 	int computers9 = 77;
 	int drawing9 = 80;
 	int m19 = 78;
@@ -172,7 +172,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name9);
         System.out.println("Total marks is :"+marks9);
 	System.out.println("Percentage is : "+perc9);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 		String name0 = "Aparna K";
 	int computers0 = 83;
@@ -189,7 +189,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name0);
         System.out.println("Total marks is :"+marks0);
 	System.out.println("Percentage is : "+perc0);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 	String name11 = "Lakshmi Chaitanya L";
 	int computers11 = 85;
@@ -206,7 +206,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name11);
         System.out.println("Total marks is :"+marks11);
 	System.out.println("Percentage is : "+perc11);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
 
 	String name12 = "Rahul R";
 	int computers12 = 78;
@@ -223,7 +223,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name12);
         System.out.println("Total marks is :"+marks12);
 	System.out.println("Percentage is : "+perc12);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
  
 	String name13 = "SaiKumar J";
 	int computers13 = 80;
@@ -240,7 +240,7 @@ System.out.println("------------------------------------------------------------
 	System.out.println("Student name is :"+name13);
         System.out.println("Total marks is :"+marks13);
 	System.out.println("Percentage is : "+perc13);
-System.out.println("------------------------------------------------------------------");
+System.out.println("--");
  
  if(perc>=85)
         System.out.println("name is : "+name);
