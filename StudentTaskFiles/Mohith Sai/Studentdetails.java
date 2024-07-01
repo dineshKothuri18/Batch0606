@@ -24,7 +24,7 @@ public class studentdetails{
     
 
         
-        name2= "Narasimha A";
+        String name2= "Narasimha A";
         
         computers= 55;
         drawing= 45;
@@ -41,10 +41,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name2);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage2 =((float)totalmarks/900)*100;
+        float percentage2 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage2);
         
-        name3= "Hemanth Ch";
+        String name3= "Hemanth Ch";
         
         computers= 65;
         drawing= 45;
@@ -61,10 +61,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name3);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage3 =((float)totalmarks/900)*100;
+         float percentage3 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage3);
         
-        name4= "Sumanth M";
+        String name4= "Sumanth M";
         
         computers= 65;
         drawing= 55;
@@ -81,10 +81,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name4);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage4 =((float)totalmarks/900)*100;
+         float percentage4 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage4);
         
-        name5= "Vijaya Lakshmi P";
+        String name5= "Vijaya Lakshmi P";
         
         computers= 57;
         drawing= 55;
@@ -101,10 +101,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name5);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage5 =((float)totalmarks/900)*100;
+       float percentage5 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage5);
         
-        name6= "Kavya Sri K";
+        String name6= "Kavya Sri K";
         
         computers= 55;
         drawing= 83;
@@ -121,11 +121,11 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name6);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage6 =((float)totalmarks/900)*100;
+         float percentage6 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage6);
         
         
-        name7= "Akhila D";
+        String name7= "Akhila D";
         
         computers= 55;
         drawing= 83;
@@ -142,10 +142,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name7);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage7 =((float)totalmarks/900)*100;
+        float percentage7 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage7);
         
-        name8= "Sai Charan P";
+        String name8= "Sai Charan P";
         
         computers= 35;
         drawing= 45;
@@ -162,11 +162,11 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name8);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage8 =((float)totalmarks/900)*100;
+         float percentage8 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage8);
         
         
-        name9= "Sathvika A";
+        String name9= "Sathvika A";
         
         computers= 65;
         drawing= 55;
@@ -183,10 +183,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name9);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage9 =((float)totalmarks/900)*100;
+        float percentage9 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage9);
         
-        name10= "Karishma Md";
+        String name10= "Karishma Md";
         
         computers= 45;
         drawing= 58;
@@ -203,10 +203,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name10);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage10 =((float)totalmarks/900)*100;
+         float percentage10 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage10);
         
-        name11= "Aparna K";
+        String name11= "Aparna K";
         
         computers= 55;
         drawing= 35;
@@ -223,10 +223,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name11);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage11 =((float)totalmarks/900)*100;
+         float percentage11 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage11);
         
-        name12= "Lakshmi Chaitanya L";
+        String name12= "Lakshmi Chaitanya L";
         
         computers= 45;
         drawing= 73;
@@ -243,10 +243,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name12);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage12 =((float)totalmarks/900)*100;
+        float percentage12 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage12);
         
-        name13= "Rahul R";
+        String name13= "Rahul R";
         
         computers= 35;
         drawing= 37;
@@ -263,10 +263,10 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name13);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage13 =((float)totalmarks/900)*100;
+         float percentage13 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage13);
         
-        name14= "Saikumar J";
+        String name14= "Saikumar J";
         
         computers= 55;
         drawing= 47;
@@ -283,35 +283,35 @@ public class studentdetails{
         +m2+m3+m4+physics+chemistry+english;
         System.out.println("name:"+name14);
         System.out.println("total marks of a students:"+totalmarks);
-         percentage14 =((float)totalmarks/900)*100;
+         float percentage14 =((float)totalmarks/900)*100;
         System.out.println("percentage:"+percentage14);
- if(percentage1>= 85)
+ if(percentage1>= 50)
          System.out.println(name1);  
-if(percentage2>= 85)
+if(percentage2>= 50)
          System.out.println(name2);  
-if(percentage3>= 85)
+if(percentage3>= 50)
          System.out.println(name3); 
-if(percentage4>= 85)
+if(percentage4>= 50)
          System.out.println(name4);  
-if(percentage5>= 85)
+if(percentage5>= 50)
          System.out.println(name5); 
- if(percentage6>= 85)
+ if(percentage6>= 50)
          System.out.println(name6); 
- if(percentage7>= 85)
+ if(percentage7>= 50)
          System.out.println(name7);  
-if(percentage8>= 85)
+if(percentage8>= 50)
          System.out.println(name8);  
-if(percentage9>= 85)
+if(percentage9>= 50)
          System.out.println(name9);  
-if(percentage10>= 85)
+if(percentage10>= 50)
          System.out.println(name10);  
-if(percentage11>= 85)
+if(percentage11>= 50)
          System.out.println(name11);  
-if(percentage12>= 85)
+if(percentage12>= 50)
          System.out.println(name12); 
-if(percentage13>= 85)
+if(percentage13>= 50)
          System.out.println(name13);  
-if(percentage14>= 85)
+if(percentage14>= 50)
          System.out.println(name14);    
 
  } 
