@@ -12,7 +12,7 @@ public class StudentDetails{
         int chemistry = 68; 
         int english = 98;
         int totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         float percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -28,7 +28,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -44,7 +44,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 63;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -60,7 +60,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -76,7 +76,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -92,7 +92,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 99;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -108,7 +108,7 @@ public class StudentDetails{
          chemistry = 100; 
         english = 90;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -124,7 +124,7 @@ public class StudentDetails{
          chemistry = 77; 
         english = 80;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -140,7 +140,7 @@ public class StudentDetails{
          chemistry = 56; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -156,7 +156,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -172,7 +172,7 @@ public class StudentDetails{
          chemistry = 59; 
         english = 89;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -188,7 +188,7 @@ public class StudentDetails{
          chemistry = 90; 
         english = 90;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -204,7 +204,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 60;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
@@ -220,7 +220,7 @@ public class StudentDetails{
          chemistry = 80; 
         english = 89;
         totalstudentmarks = computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        System.out.println("total marks of a student:+totalstudentmarks");
+        System.out.println("total marks of a student:"+totalstudentmarks);
         percentage = (((float)totalstudentmarks/900)*100);
         System.out.println("percentage:"+ percentage);
         
