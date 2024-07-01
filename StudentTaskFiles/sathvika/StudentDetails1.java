@@ -241,9 +241,8 @@ System.out.println("------------------------------------------------------------
         System.out.println("Total marks is :"+marks13);
 	System.out.println("Percentage is : "+perc13);
 System.out.println("------------------------------------------------------------------");
- 
  if(perc>=85)
-        System.out.println("name is : "+name);
+       System.out.println("name is : "+name);
  if(perc1>=85)
 	System.out.println("name is : "+name1);
  if(perc2>=85)
