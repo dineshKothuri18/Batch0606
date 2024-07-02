@@ -62,8 +62,8 @@ for (int i=0;i<javaMarks.length;i++){
 	max=javaMarks[i];
 }
 }
-System.out.println("Minimum Marks in java is "+min+" by "+names[minimumIndex]);
-System.out.println("MAximum Marks in java is "+max+" by "+names[maximumIndex]);
+System.out.println("Minimum Marks in java is "+min);
+System.out.println("MAximum Marks in java is "+max);
 System.out.println("--------------------------------------");
 
 
@@ -85,8 +85,8 @@ for (int i=0;i<htmlMarks.length;i++){
 max=htmlMarks[i];
 }
 }
-System.out.println("Minimum Marks in HTML is "+min+" by "+names[minimumIndex]);
-System.out.println("MAximum Marks in HTML is "+max+" by "+names[maximumIndex]);
+System.out.println("Minimum Marks in HTML is "+min);
+System.out.println("MAximum Marks in HTML is "+max);
 System.out.println("--------------------------------------");
 
 
@@ -109,8 +109,8 @@ for (int i=0;i<sqlMarks.length;i++){
 max=sqlMarks[i];
 }
 }
-System.out.println("Minimum Marks in SQl is "+min+" by "+names[minimumIndex]);
-System.out.println("MAximum Marks in SQL is "+max+" by "+names[maximumIndex]);
+System.out.println("Minimum Marks in SQl is "+min);
+System.out.println("MAximum Marks in SQL is "+max);
 System.out.println("--------------------------------------");
 
 
@@ -133,8 +133,8 @@ for (int i=0;i<jsMarks.length;i++){
 max=jsMarks[i];
 }
 }
-System.out.println("Minimum Marks in JAVA SCRIPT is "+min+" by "+names[minimumIndex]);
-System.out.println("MAximum Marks in JAVA SCRIPT is "+max+" by "+names[maximumIndex]);
+System.out.println("Minimum Marks in JAVA SCRIPT is "+min);
+System.out.println("MAximum Marks in JAVA SCRIPT is "+max);
 System.out.println("--------------------------------------");
 
 
