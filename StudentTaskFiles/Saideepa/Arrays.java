@@ -21,7 +21,7 @@ public class Student {
             int a=Math.max(javaMarks[i],htmlMarks[i]);
             int b=Math.max(sqlMarks[i],jsMarks[i]);
             int c=Math.max(a,b);
-
+              if (javaMarks[i] >= 35 && htmlMarks[i] >= 35 && sqlMarks[i] >= 25 && jsMarks[i] >= 35) {
             System.out.println("Name: "+studentNames[i]);
             System.out.println("Rollnumber: "+idNumbers[i]);
             System.out.println("Department Name: "+depatName[i]);
@@ -36,6 +36,25 @@ public class Student {
             System.out.println("Maxinum Marks: "+c);
             System.out.println("__________________________________");
         }
+        }
+        else{
+             System.out.println("Name: " + studentNames[i]);
+                System.out.println("Rollnumber: " + idNumbers[i]);
+                System.out.println("Department Name: " + depatName[i]);
+                System.out.println("JavaMarks: " + javaMarks[i]);
+                System.out.println("HTML Marks: " + htmlMarks[i]);
+                System.out.println("SQL Marks: " + sqlMarks[i]);
+                System.out.println("JavaScript Marks: " + jsMarks[i]);
+                System.out.println("Total Marks: " + sum);
+                System.out.println("Average Marks: " + average);
+                System.out.println("Percentage: " + percentage);
+                System.out.println("Minimum Marks: " + f);
+                System.out.println("Maximum Marks: " + c);
+                System.out.println("Fail");
+                System.out.println("__________________________________");
+
+            }
+
 
     }
 }
