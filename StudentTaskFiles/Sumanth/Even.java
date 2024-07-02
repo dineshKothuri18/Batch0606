@@ -11,6 +11,7 @@ public class Even{
 		System.out.print("enter a number2 : ");
 		number2=sc.nextInt();
 	 System.out.println("enter correct numbers ");
+	break;
 	}		 
 	 System.out.print("Even numbers between " + number1 + "-" + number2 + " are : ");
          for (int i = number1+1; i <= number2-1; i++) 
