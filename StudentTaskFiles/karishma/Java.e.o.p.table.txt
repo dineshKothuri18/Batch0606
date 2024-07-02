@@ -23,10 +23,10 @@ public class EvenOddPrime{
 }
 }
  System.out.println("Multiplication table of"+num1+"upto"+num2+":");
-   for(int i=num1; i<=num2; i++){
+   for(int i=1; i<=num2; i++){
       System.out.println(num1 + "*" +i+"="+(num1*i));
 }
-           
+           input.close();
 }
  public static boolean isPrime(int num) {
         if (num <= 1) {
@@ -39,4 +39,4 @@ public class EvenOddPrime{
         }
         return true;
     }
-}     
+}
