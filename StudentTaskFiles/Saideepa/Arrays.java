@@ -17,10 +17,10 @@ public class Student {
             percentage = (sum/300.0)*100;
             int d=Math.min(javaMarks[i],htmlMarks[i]);
             int e=Math.min(sqlMarks[i],jsMarks[i]);
-            int f=Math.min(d,e);
+            int min=Math.min(d,e);
             int a=Math.max(javaMarks[i],htmlMarks[i]);
             int b=Math.max(sqlMarks[i],jsMarks[i]);
-            int c=Math.max(a,b);
+            int max=Math.max(a,b);
               if (javaMarks[i] >= 35 && htmlMarks[i] >= 35 && sqlMarks[i] >= 25 && jsMarks[i] >= 35) {
             System.out.println("Name: "+studentNames[i]);
             System.out.println("Rollnumber: "+idNumbers[i]);
@@ -32,8 +32,8 @@ public class Student {
             System.out.println("Total Marks: "+sum);
             System.out.println("Average Markss: "+average);
             System.out.println("Percentage: "+percentage);
-            System.out.println("Minimum Marks: "+f);
-            System.out.println("Maxinum Marks: "+c);
+            System.out.println("Minimum Marks: "+min);
+            System.out.println("Maxinum Marks: "+max);
             System.out.println("__________________________________");
         }
         }
