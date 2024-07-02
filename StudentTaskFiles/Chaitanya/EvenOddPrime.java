@@ -6,6 +6,11 @@ public class EvenOddPrime{
         int num1 =input.nextInt();
         System.out.println("Enter the Second number:");
         int num2 =input.nextInt();
+        if(num1>num2){
+        System.out.println("Enter an valid numbers");
+     }
+}
+while(num1>num2)
 
       System.out.println("Even and Odd numbers between"+num1+"and"+num2+":");
         
@@ -23,12 +28,12 @@ public class EvenOddPrime{
 }
 }
  System.out.println("Multiplication table of"+num1+"upto"+num2+":");
-   for(int i=num1; i<=num2; i++){
+   for(int i=1; i<=num2; i++){
       System.out.println(num1 + "*" +i+"="+(num1*i));
 }
-           
+           input.close();
 }
- public static boolean isPrime(int num) {
+ public static Boolean isPrime(int num) {
         if (num <= 1) {
             return false;
         }
@@ -40,3 +45,4 @@ public class EvenOddPrime{
         return true;
     }
 }     
+}

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 import java.util.Scanner;
 public class Task{
@@ -37,6 +38,40 @@ for(i=num1;i<=num2;i++){
          }
 }
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 98b4a45dabfbb84b82f746f69dbcc92be70e13a9
+import java.util.Scanner;
+public class Task{
+    public static void main(String[] args){
+
+Scanner sc = new Scanner(System.in);
+System.out.println("ENTER NUM1");
+int num1 =  sc.nextInt();
+
+
+System.out.println("ENTER NUM2");
+int num2=  sc.nextInt();
+
+
+//evenodd starts
+<<<<<<< HEAD
+for(int i=num1;i<=num2;i++){
+=======
+int i;
+for(i=num1;i<=num2;i++){
+>>>>>>> 98b4a45dabfbb84b82f746f69dbcc92be70e13a9
+    if(i%2==0){
+        System.out.println(i + " is even number");
+         }
+         if(i%2==1){
+            System.out.println(i+ " is odd number");
+         }
+}
+
+>>>>>>> 6f09fc618c8b15061497d799652d936f36b6e2f3
 //evenodd ends
 
 
@@ -68,8 +103,18 @@ for(i=num1;i<=num2;i++){
 
     //    3x1=3
         // num1 "x" i(1..10) "=" num1*i
+<<<<<<< HEAD
         for(int j = 1;j<=num2;j++){   
             System.out.println(num1 +"x"+(j) +"="+(num1*(j)));
+=======
+<<<<<<< HEAD
+        for(int k= 1;k<=num2;k++){   
+            System.out.println(num1 +"x"+(k) +"="+(num1*(k)));
+=======
+        for(int i = 1;i<=num2;i++){   
+            System.out.println(num1 +"x"+(i) +"="+(num1*(i)));
+>>>>>>> 98b4a45dabfbb84b82f746f69dbcc92be70e13a9
+>>>>>>> 6f09fc618c8b15061497d799652d936f36b6e2f3
         }
 
     }
@@ -81,6 +126,7 @@ for(i=num1;i<=num2;i++){
     
 
 
+<<<<<<< HEAD
 
 //     import java.util.Scanner;
 
@@ -131,3 +177,12 @@ for(i=num1;i<=num2;i++){
 //         sc.close();
 //     }
 // }
+=======
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 98b4a45dabfbb84b82f746f69dbcc92be70e13a9
+>>>>>>> 6f09fc618c8b15061497d799652d936f36b6e2f3
