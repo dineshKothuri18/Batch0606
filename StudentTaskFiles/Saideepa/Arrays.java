@@ -36,7 +36,6 @@ public class Student {
             System.out.println("Maxinum Marks: "+max);
             System.out.println("__________________________________");
         }
-        }
         else{
              System.out.println("Name: " + studentNames[i]);
                 System.out.println("Rollnumber: " + idNumbers[i]);
@@ -48,13 +47,13 @@ public class Student {
                 System.out.println("Total Marks: " + sum);
                 System.out.println("Average Marks: " + average);
                 System.out.println("Percentage: " + percentage);
-                System.out.println("Minimum Marks: " + f);
-                System.out.println("Maximum Marks: " + c);
+                System.out.println("Minimum Marks: " + min);
+                System.out.println("Maximum Marks: " + max);
                 System.out.println("Fail");
                 System.out.println("__________________________________");
 
             }
-
+	}
 
     }
 }
