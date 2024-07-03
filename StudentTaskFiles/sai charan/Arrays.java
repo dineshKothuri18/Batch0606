@@ -35,6 +35,48 @@ public class Arrays{
             }
             
         }
-          
+         int min = subjectJavaMarks[0];
+                int max = subjectJavaMarks[0];
+                for(int j=0; j<=18; j++){
+                    if(subjectJavaMarks[j]>max)
+                    max = subjectJavaMarks[j];
+                    if(subjectJavaMarks[j]<min)
+                    min = subjectJavaMarks[j];
+                }
+             System.out.println("Max Marks in java : " + max);
+    System.out.println("Min Marks in java : " + min);
+    
+    int min1 = subjectJSMarks[0];
+                int max1 = subjectJSMarks[0];
+                for(int x=0; x<=18; x++){
+                    if(subjectJSMarks[x]>max1)
+                    max1 = subjectJSMarks[x];
+                    if(subjectJSMarks[x]<min1)
+                    min1 = subjectJSMarks[x];
+                }
+             System.out.println("Max Marks in JS : " + max1);
+    System.out.println("Min Marks in JS : " + min1);
+    int min2 = subjectHTMLMarks[0];
+                int max2 = subjectHTMLMarks[0];
+                for(int k=0; k<=18; k++){
+                    if(subjectHTMLMarks[k]>max2)
+                    max2 = subjectHTMLMarks[k];
+                    if(subjectHTMLMarks[k]<min2)
+                    min2 = subjectHTMLMarks[k];
+                }
+             System.out.println("Max Marks in HTML : " + max2);
+    System.out.println("Min Marks in HTML : " + min2);
+      int min3 = subjectSQLMarks[0];
+                int max3 = subjectSQLMarks[0];
+                for(int y=0; y<=18; y++){
+                    if(subjectSQLMarks[y]>max3)
+                    max3 = subjectSQLMarks[y];
+                    if(subjectSQLMarks[y]<min3)
+                    min3 = subjectSQLMarks[y];
+                }
+             System.out.println("Max Marks in SQL : " + max);
+    System.out.println("Min Marks in SQL : " + min);
             }
         }
+          
+            
