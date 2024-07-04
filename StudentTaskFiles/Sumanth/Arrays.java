@@ -21,8 +21,9 @@ max=javaSubject[i];
 max_name=studentNames[i];
 }
 }
-System.out.println(min_name+"("+min+") ");
-System.out.println(max_name+"("+max+")");
+System.out.println("Minimum marks in java is : "+" "+min_name+"("+min+") ");
+System.out.println("Maximum marks in java is : "+" "+max_name+"("+max+")");
+System.out.println("------------------------------------------------------");
 min=subjectHTML[0];
  max = 0;
 for(int i=0;i<l;i++){
@@ -35,8 +36,9 @@ max=subjectHTML[i];
 max_name=studentNames[i];
 }
 }
-System.out.println(min_name+"("+min+") ");
-System.out.println(max_name+"("+max+")");
+System.out.println("Minimum marks in HTML is : "+" "+min_name+"("+min+") ");
+System.out.println("Maximum marks in HTML is : "+" "+max_name+"("+max+")");
+System.out.println("-----------------------------------------------------");
 min=subjectSQL[0];
  max = 0;
 for(int i=0;i<l;i++){
@@ -49,8 +51,9 @@ max=subjectSQL[i];
 max_name=studentNames[i];
 }
 }
-System.out.println(min_name+"("+min+") ");
-System.out.println(max_name+"("+max+")");
+System.out.println("Minimum marks in SQL is : "+" "+min_name+"("+min+") ");
+System.out.println("Maximum marks in SQL is : "+" "+max_name+"("+max+")");
+System.out.println("---------------------------------------------------");
 min=javaScript[0];
  max = 0;
 for(int i=0;i<l;i++){
@@ -63,8 +66,9 @@ max=javaScript[i];
 max_name=studentNames[i];
 }
 }
-System.out.println(min_name+"("+min+") ");
-System.out.println(max_name+"("+max+")");
+System.out.println("Minimum marks in JAVA SCRIPT is : "+" "+min_name+"("+min+") ");
+System.out.println("Maximum marks in JAVA SCRIPT is : "+" "+max_name+"("+max+")");
+System.out.println("------------------------------------------------------");
 
 float[] perc = new float[20];
 perc[0] =(javaSubject[0]+subjectHTML[0]+subjectSQL[0]+javaScript[0])/4f;
