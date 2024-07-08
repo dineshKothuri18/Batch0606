@@ -5,12 +5,12 @@ public class Loop{
         
         int number1 = 0;
         int number2 = 0;
-        while(number1>=num2){
+        while(number1>=number2){
             Scanner sc = new Scanner(System.in);
             System.out.println("enter a number : ");
-            num1 = sc.nextInt();
+            number1 = sc.nextInt();
             System.out.println("enter a number2 : ");
-            num2 = sc.nextInt();
+            number2 = sc.nextInt();
             System.out.println("enter the correct number");
         }
             
