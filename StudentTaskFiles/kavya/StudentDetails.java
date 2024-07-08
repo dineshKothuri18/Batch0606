@@ -1,8 +1,8 @@
-public class StudentDetails{
+public class Main{
     public static void main(String[] args){
-        {
-            String name1 = "Narasimha A";
-        int computer= 85;
+        
+    String name1 = "Narasimha A";
+       int computer= 85;
         int drawing= 78;
         int m1= 88;
         int m2= 92;
@@ -12,245 +12,275 @@ public class StudentDetails{
         int chemistry= 79;
         int english= 84;
         int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        float percentage1=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name1);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage1 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
-    String name2 = "Hemanth CH";
-        int computer= 90;
-        int drawing= 82;
-        int m1= 86;
-        int m2= 89;
-        int m3= 84;
-        int m4= 77;
-        int physics= 83;
-        int chemistry= 78;
-        int english= 85;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+
+        String name2 = "Hemanth CH";
+        computer= 90;
+        drawing= 82;
+        m1= 86;
+        m2= 89;
+        m3= 84;
+        m4= 77;
+        physics= 83;
+        chemistry= 78;
+        english= 85;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage2=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name2);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage2 + "%" );
         System.out.println("------------------------------------------------");
-}
-{    
+
      String name3 = "Sumanth M";
-        int computer= 75;
-        int drawing= 80;
-        int m1= 79;
-        int m2= 85;
-        int m3= 88;
-        int m4= 82;
-        int physics= 77;
-        int chemistry= 80;
-        int english= 79;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 75;
+        drawing= 80;
+        m1= 79;
+        m2= 85;
+        m3= 88;
+        m4= 82;
+        physics= 77;
+        chemistry= 80;
+        english= 79;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage3=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name3);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage3 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
+
     String name4 = "Mohith Sai K";
-        int computer= 82;
-        int drawing= 77;
-        int m1= 83;
-        int m2= 87;
-        int m3= 81;
-        int m4= 78;
-        int physics= 80;
-        int chemistry= 85;
-        int english= 82;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 82;
+        drawing= 77;
+        m1= 83;
+        m2= 87;
+        m3= 81;
+        m4= 78;
+        physics= 80;
+        chemistry= 85;
+        english= 82;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage4=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name4);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage4 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
+
     String name5 = "Vijaya Lakshmi P";
-        int computer= 88;
-        int drawing= 84;
-        int m1= 85;
-        int m2= 90;
-        int m3= 89;
-        int m4= 81;
-        int physics= 82;
-        int chemistry= 87;
-        int english= 86;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 88;
+        drawing= 84;
+        m1= 85;
+        m2= 90;
+        m3= 89;
+        m4= 81;
+        physics= 82;
+        chemistry= 87;
+        english= 86;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage5=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name5);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage5 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
+
     String name6 = "Kavya Sri K";
-        int computer= 79;
-        int drawing= 75;
-        int m1= 80;
-        int m2= 82;
-        int m3= 83;
-        int m4= 79;
-        int physics= 78;
-        int chemistry= 81;
-        int english= 80;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 79;
+        drawing= 75;
+        m1= 80;
+        m2= 82;
+        m3= 83;
+        m4= 79;
+        physics= 78;
+        chemistry= 81;
+        english= 80;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage6=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name6);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage6 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
+
     String name7 = "Akhila D";
-        int computer= 84;
-        int drawing= 79;
-        int m1= 82;
-        int m2= 85;
-        int m3= 86;
-        int m4= 80;
-        int physics= 79;
-        int chemistry= 83;
-        int english= 81;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 84;
+        drawing= 79;
+        m1= 82;
+        m2= 85;
+        m3= 86;
+        m4= 80;
+        physics= 79;
+        chemistry= 83;
+        english= 81;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage7=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name7);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage7 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
+
     String name8 = "Sai Charan P";
-        int computer= 76;
-        int drawing= 81;
-        int m1= 77;
-        int m2= 84;
-        int m3= 80;
-        int m4= 82;
-        int physics= 78;
-        int chemistry= 79;
-        int english= 80;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 76;
+        drawing= 81;
+        m1= 77;
+        m2= 84;
+        m3= 80;
+        m4= 82;
+        physics= 78;
+        chemistry= 79;
+        english= 80;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage8=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name8);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage8 + "%" );
         System.out.println("------------------------------------------------");
-}
-{   
+
     String name9 = "Sathvika A";
-        int computer= 89;
-        int drawing= 85;
-        int m1= 87;
-        int m2= 90;
-        int m3= 84;
-        int m4= 88;
-        int physics= 83;
-        int chemistry= 86;
-        int english= 87;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 89;
+        drawing= 85;
+        m1= 87;
+        m2= 90;
+        m3= 84;
+        m4= 88;
+        physics= 83;
+        chemistry= 86;
+        english= 87;
+         totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage9=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name9);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage9 + "%" );
         System.out.println("------------------------------------------------");
-}
-{   
-    String name10 = "Karishma Md";
-        int computer= 77;
-        int drawing= 80;
-        int m1= 78;
-        int m2= 83;
-        int m3= 81;
-        int m4= 79;
-        int physics= 76;
-        int chemistry= 80;
-        int english= 78;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+
+    String name10= "Karishma Md";
+        computer= 77;
+        drawing= 80;
+        m1= 78;
+        m2= 83;
+        m3= 81;
+        m4= 79;
+        physics= 76;
+        chemistry= 80;
+        english= 78;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage10=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name10);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage10 + "%" );
         System.out.println("------------------------------------------------");
-}        
-{
+        
     String name11 = "Aparna K";
-        int computer= 83;
-        int drawing= 79;
-        int m1= 82;
-        int m2= 88;
-        int m3= 80;
-        int m4= 85;
-        int physics= 81;
-        int chemistry= 84;
-        int english= 83;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 83;
+        drawing= 79;
+        m1= 82;
+        m2= 88;
+        m3= 80;
+        m4= 85;
+        physics= 81;
+        chemistry= 84;
+        english= 83;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage11=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name11);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage11 + "%" );
         System.out.println("------------------------------------------------");
-}        
-{
+        
     String name12 = "Lakshmi Chaitanya L";
-        int computer= 85;
-        int drawing= 81;
-        int m1= 84;
-        int m2= 89;
-        int m3= 82;
-        int m4= 86;
-        int physics= 83;
-        int chemistry= 87;
-        int english= 85;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+        computer= 85;
+        drawing= 81;
+        m1= 84;
+        m2= 89;
+        m3= 82;
+        m4= 86;
+        physics= 83;
+        chemistry= 87;
+        english= 85;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage12=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name12);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage12 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
-    String name13 = "Rahul R";
-        int computer= 78;
-        int drawing= 76;
-        int m1= 79;
-        int m2= 81;
-        int m3= 80;
-        int m4= 77;
-        int physics= 76;
-        int chemistry= 78;
-        int english= 79;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+
+   String name13 = "Rahul R";
+        computer= 78;
+        drawing= 76;
+        m1= 79;
+        m2= 81;
+        m3= 80;
+        m4= 77;
+        physics= 76;
+        chemistry= 78;
+        english= 79;
+        totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+       float percentage13=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name13);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage13 + "%" );
         System.out.println("------------------------------------------------");
-}
-{
-    String name14 = "SaiKumar J";
-        int computer= 80;
-        int drawing= 82;
-        int m1= 81;
-        int m2= 83;
-        int m3= 84;
-        int m4= 80;
-        int physics= 79;
-        int chemistry= 82;
-        int english= 81;
-        int totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
-        float percentage=((float)totalmarks/900)*100;
+
+   String name14 = "SaiKumar J";
+        computer= 80;
+        drawing= 82;
+        m1= 81;
+        m2= 83;
+        m3= 84;
+        m4= 80;
+        physics= 79;
+        chemistry= 82;
+        english= 81;
+         totalmarks=computer+drawing+m1+m2+m3+m4+physics+chemistry+english;
+        float percentage14=((float)totalmarks/900)*100;
         System.out.println("Name : "+ name14);
         System.out.println("Total Marks: "+ totalmarks);
-        System.out.println("Percentage : "+ percentage + "%" );
+        System.out.println("Percentage : "+ percentage14 + "%" );
         System.out.println("------------------------------------------------");
-}
-   }
+
+     
+      if(percentage1>=85){
+          System.out.println("The student who got 85% is "+name1);
+      }
+      if(percentage2>=85){
+          System.out.println("The student who got 85% is "+name2);
+      }
+      if(percentage3>=85){
+          System.out.println("The student who got 85% is "+name3);
+      }
+      if(percentage4>=85){
+          System.out.println("The student who got 85% is "+name4);
+      }
+      if(percentage5>=85){
+          System.out.println("The student who got 85% is "+name5);
+      }
+      if(percentage6>=85){
+          System.out.println("The student who got 85% is "+name6);
+      }
+      if(percentage7>=85){
+          System.out.println("The student who got 85% is "+name7);
+      }
+      if(percentage8>=85){
+          System.out.println("The student who got 85% is "+name8);
+      }
+      if(percentage9>=85){
+          System.out.println("The student who got 85% is "+name9);
+      }
+      if(percentage10>=85){
+          System.out.println("The student who got 85% is "+name10);
+      }
+      if(percentage11>=85){
+          System.out.println("The student who got 85% is "+name11);
+      }
+      if(percentage12>=85){
+          System.out.println("The student who got 85% is "+name12);
+      }
+      if(percentage13>=85){
+          System.out.println("The student who got 85% is "+name13);
+      }
+      if(percentage14>=85){
+          System.out.println("The student who got 85% is "+name14);
+      } 
+    }
 }
