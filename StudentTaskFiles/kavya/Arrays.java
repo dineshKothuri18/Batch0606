@@ -1,4 +1,4 @@
-public class {
+public class Arrays{
     public static void main(String[] args){
         String[] studentNames={"Narasimha","Hemanth","Sumanth","Mohith","Vijay","Kavya","Akhila","Charan","Sathvika","Karishma","Aparna","Chaitanya","Rahul","Saikumar","Raghu","Suvarchala","Saideepa","Siva Nageswararao","Sai Kiran"};
         int[] java={30,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,10};
