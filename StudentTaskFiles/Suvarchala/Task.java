@@ -1,3 +1,6 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
 import java.util.Scanner;
 
 public class Task {
@@ -13,6 +16,7 @@ public class Task {
             System.out.println("5. End");
             System.out.print(" enter the option:  ");
             int a = sc.nextInt();
+            sc.nextLine();
             
             switch (a) {
                 case 1:
@@ -20,23 +24,23 @@ public class Task {
                     int n1 = sc.nextInt();
                     int n2 = sc.nextInt();
                     arithmeticOperation(n1, n2);
-                    continue;
+                    break;
                 case 2:
                     System.out.print("Enter a number to check if it is prime: ");
                     int n3 = sc.nextInt();
                     primeOrNot(n3);
-                    continue;
+                    break;
                     
                 case 3:
                     System.out.print("Enter a number to find its factors: ");
                     int n4 = sc.nextInt();
                     factors(n4);
-                    continue;
+                    break;
                 case 4:
-                    System.out.print("Enter a string to count its letters: ");
-                    String str = sc.nextLine();
-                    lettersCount(str);
-                    continue;
+                    System.out.print("Enter the string: ");
+                     String n5 = sc.nextLine();
+                    lettersCount(n5);
+                    break;
                 case 5:
                     end = true;
                     break;
@@ -78,15 +82,15 @@ public class Task {
         System.out.println();
     }
 
-    public static void lettersCount(String s) {
-        for(int i=0;i<s.length();i++){
-            int count=0;
-            for(int j=0;j<s.length();j++){
-                if(s.charAt(i)==s.charAt(j)){
+    public static void lettersCount(String str) {
+        for(int i=0;i<str.length();i++){
+            int count=1;
+            for(int j=i+1;j<str.length();j++){
+                if(str.charAt(i)==str.charAt(j)){
                     count=count+1;
                 }
             }
-            System.out.println(s.charAt(i)+":  "+count);
+            System.out.println(str.charAt(i)+":  "+count);
         }
         
     }
