@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class EOP{
+public class EOP1July{
 	public static void main(String[]args){
 		Scanner scan=new Scanner(System.in);
 		int a=0;
