@@ -4,7 +4,7 @@ public class Task {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean end = false;
-
+	
         while (!end) {
             System.out.println("1. Arithmetic operation");
             System.out.println("2. Check if a number is Prime");
@@ -13,7 +13,7 @@ public class Task {
             System.out.println("5. End");
             System.out.print(" enter the option:  ");
             int a = sc.nextInt();
-            
+            sc.nextLine();
             switch (a) {
                 case 1:
                     System.out.print("Enter two numbers: ");
