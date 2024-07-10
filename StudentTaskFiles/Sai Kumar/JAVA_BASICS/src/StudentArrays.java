@@ -1,4 +1,4 @@
-public class Arrays{
+public class StudentArrays{
 	public static void main(String[] args){
 String[] names = {
     "Narasimha A", "Hemanth Ch", "Sumanth M", "Mohith Sai K", "Vijaya Lakshmi P",
