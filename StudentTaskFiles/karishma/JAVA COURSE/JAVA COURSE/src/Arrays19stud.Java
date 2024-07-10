@@ -1,4 +1,4 @@
-public class Arrays{
+public class Arrays19stud{
 
 	public static void main(String[] args){
 
