@@ -1,4 +1,4 @@
-ublic class Reverse{
+public class Reverse{
     public static void main(String[] args){
         String word = "KARISHMA";
         String rsword = "";
