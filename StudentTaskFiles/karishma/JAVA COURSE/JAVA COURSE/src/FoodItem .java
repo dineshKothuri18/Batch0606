@@ -11,8 +11,7 @@ class FoodItem {
         this.name = name;
         this.price = price;
     }
-
-    @Override
+ @Override
     public String toString() {
         return name + " - $" + price;
     }
@@ -31,10 +30,9 @@ class Restaurant {
     void addFoodItem(FoodItem item) {
         menu.add(item);
     }
-
-    @Override
+ @Override
     public String toString() {
-        return name;
+        return name + " - $" + price;
     }
 }
 
@@ -78,15 +76,19 @@ public class FoodDeliveryApp {
 
     public static void main(String[] args) {
         // Adding some sample restaurants and food items
-        Restaurant r1 = new Restaurant("Pizza Palace");
-        r1.addFoodItem(new FoodItem("Margherita Pizza", 8.50));
-        r1.addFoodItem(new FoodItem("Pepperoni Pizza", 9.50));
+        Restaurant r1 = new Restaurant("Shah gouse");
+        r1.addFoodItem(new FoodItem("shawarma", 150));
+         r1.addFoodItem(new FoodItem("pathar ka briyani", 500));
+        r1.addFoodItem(new FoodItem(" Pizza", 800));
         restaurants.add(r1);
 
-        Restaurant r2 = new Restaurant("Burger Barn");
-        r2.addFoodItem(new FoodItem("Cheeseburger", 5.00));
-        r2.addFoodItem(new FoodItem("Bacon Burger", 6.00));
+        Restaurant r2 = new Restaurant("star Mehfil");
+        r2.addFoodItem(new FoodItem(" Chicken Biryani", 300.00));
+        r2.addFoodItem(new FoodItem("mutton Biryani", 500.00));
+        r2.addFoodItem(new FoodItem("Fish Biryani", 800.00));
+         r2.addFoodItem(new FoodItem("zafrani chicken  ", 800.00));
         restaurants.add(r2);
+        
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -162,6 +164,7 @@ public class FoodDeliveryApp {
         } else {
             System.out.println("No items in the order. Order not placed.\n");
         }
+        
     }
 
     private static void viewOrders() {
