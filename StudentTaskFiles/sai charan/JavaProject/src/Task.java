@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-
 import java.util.Scanner;
 public class Task{
     public static void main(String[] args){
@@ -38,11 +36,6 @@ for(i=num1;i<=num2;i++){
          }
 }
 
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> 98b4a45dabfbb84b82f746f69dbcc92be70e13a9
 import java.util.Scanner;
 public class Task{
     public static void main(String[] args){
