@@ -101,8 +101,8 @@ public class Main {
         }
         System.out.println("Total cost:"+totalcost);
         float taxes=(totalcost*18)/100.f;
-        System.out.println("taxes"+taxes);
-        System.out.println("Total cost with Taxes is: "+totalcost+taxes);
+        System.out.println("taxes: "+taxes);
+        System.out.println("Total cost with Taxes is: "+(totalcost+taxes));
 
 
     }
