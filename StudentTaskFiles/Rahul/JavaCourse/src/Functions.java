@@ -12,28 +12,41 @@ public class Functions{
             System.out.println("5.Exit");
             System.out.println();
             System.out.println("Enter the required service number: ");
-            int user_input = sc.nextInt();
-            switch(user_input){
-                case 1:
-                    arithmetic();
-                    break;
-                case 2:
-                    prime();
-                    break;
-                case 3:
-                    factors();
-                    break;
-                case 4:
-                    count_of_string();
-                    break;
-                case 5:
-                    flag = false;
-                    System.out.println("Thanks for visiting :)");
-                    break;
-                default:
-                    System.out.println("Please enter the valid Service Number :)");
-                    System.out.println("-------------------------------------------------------------------------------");
+            int user_input;
+            while (true) {
+
+                try
+                {
+                    user_input = sc.nextInt();
+                    switch(user_input){
+                        case 1:
+                            arithmetic();
+                            break;
+                        case 2:
+                            prime();
+                            break;
+                        case 3:
+                            factors();
+                            break;
+                        case 4:
+                            count_of_string();
+                            break;
+                        case 5:
+                            flag = false;
+                            System.out.println("Thanks for visiting :)");
+                            break;
+                        default:
+                            System.out.println("Please enter the valid Service Number :)");
+                            System.out.println("-------------------------------------------------------------------------------");
+                    }
+                }
+                catch (InputMismatchException e)
+                {
+                    sc.next();
+                    System.out.print("That’s not an integer. Try again: ");
+                }
             }
+
         }
 
     }
