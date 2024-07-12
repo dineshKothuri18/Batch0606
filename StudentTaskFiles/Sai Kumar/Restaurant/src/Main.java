@@ -55,9 +55,10 @@ public class Main {
         while (i > 0) {
             System.out.println("Please a enter a index of your order");
             int a = scan.nextInt();
-            System.out.println("please enter no of items you want to order");b
+            System.out.println("please enter no of items you want to order");
+
             int b = scan.nextInt();
-            menuintake[a] = b;
+            menuintake[a] += b;
             System.out.println("if you want anything to order");
             System.out.println("enter 1 if yes");
             int c = scan.nextInt();
