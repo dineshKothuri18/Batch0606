@@ -20,8 +20,8 @@ public class Resturant {
                 System.out.println("Enter your choice: ");
                 int a = sc.nextInt();
                 sc.nextLine();
-                String[][] item1 = {{"Idly", "Dosa", "Puri", "vada", "bhaji", "pongal", "bonda", "pungulu", "mysorebonda", "sweetpongal"}, {"mushroom", "pannertikka", "chickenlollipop", "dargonchicken", "fishfingers", "gobimanchuria", "noddles", "firedrice", "dahikebab"},
-                        {"chicken briyani", "mutton briyani", "prawanbriyani", "butterchicken", "pannerbriyani", "mushroombriyani", "muttonkemma", "chickendoublemasalabriyani", "pannermasalabriyani", "pannermandhi"}, {"apricortdelight", "mangopudding", "sizzlingbrowine", "carmelchocolate", "redvelvetcake", "creamycake", "chocolava", "blackcurrent", "blackforest", "macarons"}};
+                String[][] item1 = {{"Idly", "Dosa", "Puri", "vada", "bhaji", "pongal", "bonda", "punugulu", "mysorebonda", "sweetpongal"}, {"mushroom", "pannertikka", "chickenlollipop", "dargonchicken", "fishfingers", "gobimanchuria", "noddles", "firedrice", "dahikebab"},
+                        {"chicken briyani", "mutton briyani", "prawanbriyani", "butterchicken", "pannerbriyani", "mushroombriyani", "muttonkemma", "chicken masala briyani", "pannerbriyani", "fish fry"}, {"apricortdelight", "mangopudding", "sizzlingbrowine", "carmelchocolate", "redvelvetcake", "creamycake", "chocolava", "blackcurrent", "blackforest", "macarons"}};
                 int[][] cost = {{25, 34, 30, 40, 50, 45, 33, 25, 39, 50}, {250, 300, 350, 400, 500, 550, 570, 600, 200, 360}, {300, 360, 400, 550, 670, 800, 450, 220, 170, 190}, {150, 160, 111, 125, 130, 140, 100, 55, 89, 90}};
                 if (a >= 1 && a <= 4) {
                     int itemindex = a-1 ;
@@ -48,7 +48,7 @@ public class Resturant {
                     System.out.println("Enter your name: ");
                     String name = sc.nextLine();
                     System.out.println("Enter your phone number: ");
-                    int phonenumber = sc.nextInt();
+                    String phonenumber = sc.nextLine();
                     sc.nextLine();
                     System.out.println("Enter your address: ");
                     String address = sc.nextLine();
