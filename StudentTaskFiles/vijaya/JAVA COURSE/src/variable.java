@@ -1,6 +1,6 @@
 //Write a program addition of two numbers,subtraction and multiplciation 11-06-24
 
-public class datatype{
+public class variable{
   public static void main(String[]args){
     int a = 43;
     int b = 10;
