@@ -1,4 +1,4 @@
-public class Main{
+public class Rev{
     public static void main(String[] args){
         
         String originalstring = "FULL STACK";
@@ -7,7 +7,7 @@ public class Main{
         //System.out.println("orginalString: " + orignalstring);
         
         for(int i=0;i<originalstring.length();i++){
-        reversedstring = originalstrinhg.charAt(i)+reversedstring;
+        reversedstring = originalstring.charAt(i)+reversedstring;
         }
          System.out.println("Reversed String: "+ reversedstring);
          
