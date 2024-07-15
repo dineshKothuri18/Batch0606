@@ -1,6 +1,6 @@
 //Write a program to display student details, calculate and display totalMarks of a student 11-06-2024
 
-public class marks{
+public class studentv{
     public static void main(String[]args){
         {
     String name = "vijaya lakshmi";

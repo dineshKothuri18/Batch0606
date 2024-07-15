@@ -7,10 +7,10 @@ HRA : 50% of Base
 LTA : 20%
 Health Insurance : 10%
 */
-The Home = Base Salary+HRA+LTA-HI-Employee PF-Employer PF
+//The Home = Base Salary+HRA+LTA-HI-Employee PF-Employer PF
 
 import java.util.Scanner;
-public class Main{
+public class payslip{
     public static void main(String[] args){
     
             Scanner sc = new Scanner(System.in);
