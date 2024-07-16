@@ -24,9 +24,10 @@ public class Babaihotel {
         System.out.format("|%-20s | %-20s|\n","Proceed to buy","Moodu Nokkandi(3)");
         System.out.println("---------------------------------------------");
         int user_input = sc.nextInt();
+
         switch(user_input){
             case 1:
-                Selected = Addtocart();
+                Selected = Addtocart(Selected);
                 break;
             case 2:
                 viewCart(Selected,FoodItems,ItemCost);
@@ -41,6 +42,7 @@ public class Babaihotel {
         Scanner sc = new Scanner(System.in);
         FoodItems = new ArrayList<>();
         ItemCost = new ArrayList<>();
+        Selected = new ArrayList<>();
         Collections.addAll(FoodItems, "DOSA","IDLY","PURI","BONDA","VADA");
         Collections.addAll(ItemCost, 1999,1499,2499,2999,2999);
         System.out.format("%35s", "Welcome to Rahul's Elite Hotel");
@@ -52,9 +54,8 @@ public class Babaihotel {
 
 
     }
-    public static ArrayList<Integer> Addtocart(){
+    public static ArrayList<Integer> Addtocart(ArrayList<Integer> selecteditems){
         Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> selecteditems = new ArrayList<>();
         boolean k = true;
         while(k){
             System.out.println("Please Enter the food Item number:");
