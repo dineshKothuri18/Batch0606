@@ -2,7 +2,7 @@
 //task: Write a program to calculate student total marks, percentage and print details like belowPercent is more than 50 then only print , Pass
 
 
-public class marks{
+public class result{
     public static void main(String[]args){
 {
     String name = "vijaya lakshmi";

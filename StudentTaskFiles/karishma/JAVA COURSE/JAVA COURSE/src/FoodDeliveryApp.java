@@ -78,14 +78,17 @@ public class FoodDeliveryApp {
 
     public static void main(String[] args) {
         // Adding some sample restaurants and food items
-        Restaurant r1 = new Restaurant("Pizza Palace");
-        r1.addFoodItem(new FoodItem("Margherita Pizza", 8.50));
-        r1.addFoodItem(new FoodItem("Pepperoni Pizza", 9.50));
+        Restaurant r1 = new Restaurant("Shah gouse");
+        r1.addFoodItem(new FoodItem("shawarma", 150));
+         r1.addFoodItem(new FoodItem("pathar ka briyani", 800));
+        r1.addFoodItem(new FoodItem(" Pizza", 900));
         restaurants.add(r1);
 
-        Restaurant r2 = new Restaurant("Burger Barn");
-        r2.addFoodItem(new FoodItem("Cheeseburger", 5.00));
-        r2.addFoodItem(new FoodItem("Bacon Burger", 6.00));
+        Restaurant r2 = new Restaurant("star Mehfil");
+        r2.addFoodItem(new FoodItem(" Chicken Biryani", 400.00));
+        r2.addFoodItem(new FoodItem("mutton Biryani", 500.00));
+        r2.addFoodItem(new FoodItem("Fish Biryani", 800.00));
+         r2.addFoodItem(new FoodItem("zafrani chicken  ", 1000.00));
         restaurants.add(r2);
 
         Scanner scanner = new Scanner(System.in);
