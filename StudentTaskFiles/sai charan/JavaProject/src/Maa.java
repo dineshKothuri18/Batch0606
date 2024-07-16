@@ -19,12 +19,5 @@ public class Maa
 		    System.out.println(word.charAt(i)+"-"+count);
 		}
 	}
-<<<<<<< HEAD
-}*/
-=======
-}
->>>>>>> 71b69a07dfebf1ff285e5f9e73b1487e79fafb6e
-
-
 
 
