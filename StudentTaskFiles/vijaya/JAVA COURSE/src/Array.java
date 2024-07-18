@@ -1,4 +1,4 @@
-public class Main{
+public class Array{
     public static void main(String[] args){
         
         String[] javastudent = {"vijaya","kavya","sumanth","sathvika","Narasimha","Hemanth ","Mohith Sai","Akhila","Sai Charan","Karishma","Aparna","Lakshmi Chaitanya","Rahul","Saikumar","Raghu ","Suvarchala","Saideepa","Siva Nageswararao","Sai Kiran"};

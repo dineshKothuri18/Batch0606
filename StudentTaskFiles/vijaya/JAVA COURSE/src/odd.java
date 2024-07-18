@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class loop{
+public class odd{
     public static void main(String[] args){
         
         int num1 = 0;
