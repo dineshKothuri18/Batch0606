@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Aparna" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaitanya" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chaitanya K" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Hemanth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Mohith Sai" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Raghu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rahul" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sai Kumar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Saideepa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sumanth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Suvarchala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vamsi krishna" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/akhila" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/karishma" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kavya" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sathvika" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/siva" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
