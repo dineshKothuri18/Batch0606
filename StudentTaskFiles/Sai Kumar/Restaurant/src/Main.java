@@ -18,7 +18,7 @@ public class Main {
         do {
             System.out.println("\nMenu:");
             System.out.println("1. Menu Intake");
-            System.out.println("2. View Cart");
+            System.out.println("2. View Cart")
             System.out.println("3. Proceed to Buy");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
@@ -55,9 +55,10 @@ public class Main {
         while (i > 0) {
             System.out.println("Please a enter a index of your order");
             int a = scan.nextInt();
-            System.out.println("please enter no of items you want to order");b
+            System.out.println("please enter no of items you want to order");
+
             int b = scan.nextInt();
-            menuintake[a] = b;
+            menuintake[a] += b;
             System.out.println("if you want anything to order");
             System.out.println("enter 1 if yes");
             int c = scan.nextInt();
@@ -100,8 +101,8 @@ public class Main {
         }
         System.out.println("Total cost:"+totalcost);
         float taxes=(totalcost*18)/100.f;
-        System.out.println("taxes"+taxes);
-        System.out.println("Total cost with Taxes is: "+totalcost+taxes);
+        System.out.println("taxes: "+taxes);
+        System.out.println("Total cost with Taxes is: "+(totalcost+taxes));
 
 
     }
