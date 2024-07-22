@@ -46,7 +46,7 @@ public class Watch {
     System.out.println("Personal Details:");
     System.out.println("Name: ");
     String name = sc.nextLine();
-    System.out.println("Phone: ");
+    System.out.println("Phone: "); 
     String phone = sc.nextLine();
     System.out.println("Address: ");
     String address = sc.nextLine();
