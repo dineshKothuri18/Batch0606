@@ -1,0 +1,12 @@
+Wap to gather a person details
+
+fName
+lName
+email
+phoneNumber
+address
+occupation
+age
+gender
+aadhaar
+

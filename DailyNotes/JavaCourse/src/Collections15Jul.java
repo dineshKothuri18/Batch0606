@@ -9,6 +9,8 @@ public class Collections15Jul {
     public static ArrayList<String> stuNames;
 
     public static HashMap<Integer,String> stuInfo;
+    public static HashMap<Integer,HashMap<String,String>> abc;
+
     public static void main(String[] args){
 
         rollNumbers = new ArrayList<>();
@@ -45,6 +47,6 @@ public class Collections15Jul {
         }
 
     }
-    //write a program to take food items and its price store in a HashMap and print all the items using forEachloop
+    //write a program to take food items and its price store in a HashMap and print all the it
 
 }
