@@ -12,7 +12,16 @@ int[] HTMLMarks={100,30,45,50,32,60,65,56,78,98,87,67,56,87,9,87,27,98,36};
 int[]SQLMarks ={90,30,45,50,55,60,65,32,46,47,58,69,98,76,98,97,69,56,46};
 int[]JSMarks ={50,30,45,50,55,60,65,45,56,67,89,98,76,16,76,75,74,87,96,8};
          for(int i=0;i<javaStudents.length;i++){
+<<<<<<< HEAD
          
+=======
+         if(javaMarks[i]>35 && HTMLMarks[i]>35 && SQLMarks[i]>35 && JSMarks[i]>35){
+  System.out.println("STUDENT HAS PASSED");
+         }
+        else{
+             System.out.println("STUDENT HAS FAILED");
+         }
+>>>>>>> 71b69a07dfebf1ff285e5f9e73b1487e79fafb6e
          
 int add =javaMarks[i]+HTMLMarks[i]+SQLMarks[i]+JSMarks[i];
 float avg= add/4f;
@@ -21,6 +30,7 @@ float per=((float)add/400)*100;
  System.out.println("Sum "+ add);
  System.out.println("Average " + avg);
  System.out.println("percentage " + per + "%");
+<<<<<<< HEAD
   System.out.println("########################################################");
  System.out.println(javaStudents[i] +"\n"+javaStudentsRollNumbers[i] +"\n"+javaStudentsQualification[i]+"\n"+ javaStudentsyears[i]+"\n"+ javaMarks[i]+"\n"+ HTMLMarks[i]+"\n"+ SQLMarks[i]+"\n"+JSMarks[i]);
                  
@@ -31,5 +41,10 @@ if(javaMarks[i]>35 && HTMLMarks[i]>35 && SQLMarks[i]>35 && JSMarks[i]>35){
              System.out.println("STUDENT HAS FAILED");
          }
 }
+=======
+  System.out.println("**************************************************");
+ System.out.println(javaStudents[i] +"\n"+javaStudentsRollNumbers[i] +"\n"+javaStudentsQualification[i]+"\n"+ javaStudentsyears[i]+"\n"+ javaMarks[i]+"\n"+ HTMLMarks[i]+"\n"+ SQLMarks[i]+"\n"+JSMarks[i]);
+                 }
+>>>>>>> 71b69a07dfebf1ff285e5f9e73b1487e79fafb6e
 }
 }
