@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Studentmarks {
+    
     public static void main(String[] args) {
         HashMap<String,String>s1 = new HashMap<>();
         s1.put("name","Aparna");
