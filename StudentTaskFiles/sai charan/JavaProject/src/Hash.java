@@ -6,7 +6,7 @@ public class Hash{
         System.out.println("MOYE MOYE HOTEL");
         System.out.println("**********************");
         System.out.println("FOOD ITEMS DETAILS");
-        HashMap<String,Integer> menucard= new HashMap<>();
+        HashMap<Integer,String> menucard= new HashMap<>();
         menucard.put("MOYEIDLY",100);
         menucard.put("VADAI",200);
         menucard.put("MOYEDOSA",100);

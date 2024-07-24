@@ -12,7 +12,7 @@ public class HotelUpdated {
         FoodItems = menu();
         addtocart();
         view(Dumm);
-        bill(Selected,FoodItems);
+        bill();
         boolean flag = false;
         while(!flag) {
             System.out.println("If you wanna Order Anything else Please Enter 1 else 0");
@@ -21,7 +21,7 @@ public class HotelUpdated {
                 FoodItems = menu();
                 addtocart();
                 view(Dumm);
-                bill(Selected,FoodItems);
+                bill();
             }
             else if(r == 0){
                 System.out.println("Thanks For visiting");
@@ -121,7 +121,7 @@ public class HotelUpdated {
             }
         }
     }
-    public static void bill(HashMap<String,Integer>Selected,HashMap<Integer,String>FoodItems){
+    public static void bill(){
         int i = 0;
         for(String item:Selected.keySet()){
             for(int fi : FoodItems.keySet()){
