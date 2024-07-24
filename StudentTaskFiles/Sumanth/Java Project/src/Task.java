@@ -126,6 +126,6 @@ public class Task {
             System.out.println("---------------------------------");
         }
 
-        System.out.println("\nProgram ended. Thank you!");
+        System.out.println("\nProgram ended.\nMalli kaludam");
     }
 }
