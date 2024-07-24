@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -52,6 +53,7 @@ public class Main {
         System.out.println("Enter the aadhar number");
         String aadhar=scan.nextLine();
         if(aadhar.length()!=12){
+            System.out.println("The aadhar number has 12 digits please check the entered number and reenter");
             Adduser();
             return ;
         }
@@ -63,9 +65,25 @@ public class Main {
         Details.put("LName",LName);
         System.out.println("Enter the Email:");
         String email=scan.nextLine();
+        boolean f= false;
+        while(! f){
+            f=Validation(1,email);
+            if(!f){
+                System.out.println("Enter the correct mail:");
+                email=scan.nextLine();
+            }
+        }
         Details.put("email",email);
         System.out.println("Enter the phone number:");
         String phone=scan.nextLine();
+        f= false;
+        while(! f){
+            f=Validation(2,phone);
+            if(!f){
+                System.out.println("Enter the correct phone number:");
+                phone=scan.nextLine();
+            }
+        }
         Details.put("phone",phone);
         System.out.println("Enter Address:");
         String address=scan.nextLine();
@@ -75,9 +93,25 @@ public class Main {
         Details.put("Occupation",Occupation);
         System.out.println("Enter the age");
         String age=scan.nextLine();
+        f= false;
+        while(! f){
+            f=Validation(3,age);
+            if(!f){
+                System.out.println("Enter the correct age:");
+                age=scan.nextLine();
+            }
+        }
         Details.put("age",age);
         System.out.println("Enter the gender");
         String gender=scan.nextLine();
+        f= false;
+        while(! f){
+            f=Validation(4,gender);
+            if(!f){
+                System.out.println("Enter the correct gender:");
+                gender=scan.nextLine();
+            }
+        }
         Details.put("gender",gender);
 
         if(User.containsKey(aadhar)){
@@ -97,6 +131,7 @@ public class Main {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter Aadhar number you want to Edit ");
         String aadhar=scan.nextLine();
+        boolean f= false;
         if(User.containsKey(aadhar)){
             int i=1;
             do{
@@ -130,14 +165,33 @@ public class Main {
                         scan.nextLine();
 
                         String email=scan.nextLine();
+
+                        while(! f){
+                            f=Validation(1,email);
+                            if(!f){
+                                System.out.println("Enter the correct mail:");
+                                email=scan.nextLine();
+                            }
+                        }
                         User.get(aadhar).replace("email",User.get(aadhar).get("email"),email);
+                        f=false;
                         break;
                     case 4:
                         System.out.println("Enter new phone number");
                         scan.nextLine();
 
                         String phone=scan.nextLine();
+
+                        while(! f){
+                            f=Validation(2,phone);
+                            if(!f){
+                                System.out.println("Enter the correct Phone number of 10digits:");
+                                phone=scan.nextLine();
+                            }
+                        }
                         User.get(aadhar).replace("phone",User.get(aadhar).get("phone"),phone);
+                        f=false;
+
                         break;
                     case 5:
                         System.out.println("Enter new address");
@@ -158,14 +212,34 @@ public class Main {
                         scan.nextLine();
 
                         String age=scan.nextLine();
+                        f= false;
+                        while(! f){
+                            f=Validation(3,age);
+                            if(!f){
+                                System.out.println("Enter the correct age:");
+                                age=scan.nextLine();
+                            }
+                        }
                         User.get(aadhar).replace("age",User.get(aadhar).get("age"),age);
+                        f=false;
+
                         break;
                     case 8:
                         System.out.println("Enter new gender");
                         scan.nextLine();
 
                         String gender=scan.nextLine();
+                        f= false;
+                        while(! f){
+                            f=Validation(4,gender);
+                            if(!f){
+                                System.out.println("Enter the correct gender:");
+                                gender=scan.nextLine();
+                            }
+                        }
                         User.get(aadhar).replace("gender",User.get(aadhar).get("gender"),gender);
+                        f=false;
+
                         break;
 
                     case 9:
@@ -208,5 +282,66 @@ public class Main {
         }
         System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
+    }
+
+    public static boolean Validation(int i,String Data){
+        boolean flag=false;
+        switch (i){
+            case 1:
+                String[] Emailsets={"gmail.com","hotmail.com","yahoo.com","outlook.com"};
+                String[] Array1=Data.split("@");
+
+                if (Array1.length==2) {
+                    flag = Arrays.stream(Emailsets).anyMatch(N -> N.equals(Array1[1]));
+
+                }
+                else{
+                    flag=false;
+                }
+                break;
+            case 2:
+                if(Data.length()==10){
+                    flag=true;
+                }
+                else{
+                    flag=false;
+                }
+                break;
+
+            case 3:
+                try {
+                    int val = Integer.parseInt(Data);
+                    if (val<100){
+                        flag=true;
+                    }
+                    else{
+                        flag=false;
+                    }
+                }
+                catch (NumberFormatException e) {
+
+                    // This is thrown when the String
+                    // contains characters other than digits
+                    System.out.println("Invalid String");
+                    flag=false;
+                }
+
+
+                break;
+            case 4:
+                String data1=Data.toLowerCase();
+                if (data1.equals("male") || data1.equals("female")){
+                    flag=true;
+                }
+                else{
+                    flag=false;
+                }
+                break;
+
+
+
+
+        }
+        return flag;
     }
 }
