@@ -1,22 +1,23 @@
-import java.util.*;
-public class Function{
-public static void main(String[] args){
-    sum = allConditions();
-     
+public class Simple {
 
+    public String Name;
+    public int Cost;
+    public String Discount;
+    public String Color;
+    public String Barcode;
+
+
+
+
+
+    public static  void Start(){
+        System.out.println("Start");
+    }
+
+    public static void end(){
+        System.out.println("end");
+
+    }
 
 }
-public static void allConditions(int a,int b)
-{ 
-       Scanner sc=new Scanner(System.in);
-       System.out.println("enter the first number:");
-       int f1=sc.nextInt();
-       System.out.println("enter the second number:");
-       int f2=sc.nextInt();
-       System.out.println("enter the first number+enter the second number");
 
-
-       
-   }
-}
- 
