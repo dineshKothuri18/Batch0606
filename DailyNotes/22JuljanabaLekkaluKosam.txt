@@ -1,0 +1,7 @@
+New Popup designs added
+3,4,5,6,7,12,
+if i click terms&conditions then redirecting to privacy policy and when i click privacy policy then redirecting to terms&condtions
+while entering otp , should show atlease last 3-4 digits for both number and email
+Showing dashed lines under resend OTP
+Showing Continous List of years
+while click on verify button - showing device field is required
