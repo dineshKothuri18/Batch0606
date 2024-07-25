@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Census {
+public class census_Updated {
     public static ArrayList<HashMap<String,String>> census;
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -47,12 +47,48 @@ public class Census {
             }
         }
     }
+    public static int validate(int i,String s){
+        switch (i){
+            case 1:
+                int z = 0;
+                int l = s.length();
+                for(z=0; z<=l-1; z++) {
+                    if (String.valueOf(s.charAt(z)).equals(String.valueOf("@"))) {
+                        break;
+                    }
+                }
+                if(z==l){
+                    z = 0;
+                }
+                String str = s.substring(z,l);
+                if(str.equals("@gmail.com")||str.equals("@yahoo.com")){
+                    return 1;
+                }
+                else{
+                    return -1;
+                }
+            case 2:
+                if(s.length() == 10){
+                    return 1;
+                }
+                return -1;
+            case 3:
+                switch(s){
+                    case "Male","male","MALE","M","m","Female","FEMALE","F","f","female":
+                        return 1;
+                    default:
+                        return -1;
+                }
+        }
+        return 1;
+    }
     public static void delete_record(int i){
         HashMap<String,String> hm = census.get(i);
         String s = hm.get("Aadhaar_number");
         census.remove(i);
         System.out.println("The record with Aadhaar number "+s+" is deleted");
     }
+
     public static void update_record(int i){
         Scanner sc = new Scanner(System.in);
         HashMap<String,String > hm = census.get(i);
@@ -160,8 +196,21 @@ public class Census {
             String L_Name = sc.nextLine();
             System.out.println("Please Enter Your Email: ");
             String Email = sc.nextLine();
+            int val = validate(1, Email);
+            while(val == -1) {
+                System.out.println("Please Enter a valid Email");
+                Email = sc.nextLine();
+                val = validate(1,Email);
+            }
+
             System.out.println("Please Enter Your Phone number: ");
             String phone_number = sc.nextLine();
+            int valu = validate(2, phone_number);
+            while(valu == -1) {
+                System.out.println("Please Enter a valid phone number");
+                phone_number = sc.nextLine();
+                valu = validate(2,phone_number);
+            }
             System.out.println("Please Enter Your Address: ");
             String address = sc.nextLine();
             System.out.println("Please Enter Your Occupation: ");
@@ -170,6 +219,13 @@ public class Census {
             String age = sc.nextLine();
             System.out.println("Please Enter Your Gender: ");
             String gender = sc.nextLine();
+            int value = validate(3, gender);
+            while(value == -1) {
+                System.out.println("Please Enter a valid Gender");
+                gender = sc.nextLine();
+                value = validate(3,gender);
+            }
+
             System.out.println("Please Enter Your Aadhaar_number: ");
             String Aadhaar_number = sc.nextLine();
             HashMap<String,String> person = new HashMap<>();
@@ -221,5 +277,7 @@ public class Census {
             System.out.format("|%-5d|%-25s|%-25s|%-30s|%-15s|%-20s|%-20s|%-8s|%-10s|%-25s|\n",(i++),map.get("F_Name"),map.get("L_Name"),map.get("Email"),map.get("phone_number"),map.get("address"),map.get("occupation"),map.get("age"),map.get("gender"),map.get("Aadhaar_number"));
         }
         System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
     }
+
 }
