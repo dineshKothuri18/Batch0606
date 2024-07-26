@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class books {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        ArrayList<books>Books1 = new ArrayList<>();
         Story book = new Story();
         System.out.println("Please enter your book name : ");
         book.bookName = sc.nextLine();

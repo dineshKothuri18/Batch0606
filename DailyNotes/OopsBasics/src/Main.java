@@ -55,8 +55,6 @@ public class Main {
         telangana.capitalCity.name = "Hyderabad";
         telangana.capitalCity.noOfhospitals = 1200;
         telangana.capitalCity.noOfPoliceStations = 20;
-
-
     }
 }
 
