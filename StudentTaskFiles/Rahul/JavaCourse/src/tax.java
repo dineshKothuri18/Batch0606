@@ -8,25 +8,33 @@ public class tax {
         tax_on_salary(Salary);
     }
     public static void tax_on_salary(int salary){
+        float total = 0f;
         if(salary>=0 && salary<=300000){
             System.out.println("Your tax is Nil");
-            System.out.println("Enjoy mawa,nek tax led Motham salary neke");
         }
         else if(salary>300000 && salary<=700000){
             System.out.println("Your tax is 5%");
-            System.out.println("Tax Amount to be paid is "+(salary*0.05));
+            System.out.println("Tax Amount to be paid is "+((salary-300000)*0.05));
         }
         else if(salary>700000 && salary<=1000000){
             System.out.println("Your tax is 10%");
-            System.out.println("Tax Amount to be paid is "+(salary*0.1));
+            total = 400000*0.05f;
+            System.out.println("Tax Amount to be paid is "+(total + (salary-700000)*0.1));
         }
         else if(salary>1000000 && salary<=1200000){
             System.out.println("Your tax is 15%");
-            System.out.println("Tax Amount to be paid is "+(salary*0.15));
+            total = (400000*0.05f) + (300000*0.1f);
+            System.out.println("Tax Amount to be paid is "+(total + (salary-1000000)*0.15));
         }
         else if(salary>1200000 && salary<=1500000){
+            System.out.println("Your tax is 20%");
+            total = (400000*0.05f) + (300000*0.1f) + (200000*0.15f);
+            System.out.println("Tax Amount to be paid is "+(total + (salary-1200000)*0.2));
+        }
+        else{
             System.out.println("Your tax is 30%");
-            System.out.println("Tax Amount to be paid is "+(salary*0.3));
+            total = (400000*0.05f) + (300000*0.1f) + (200000*0.15f) + (300000*0.2f);
+            System.out.println("Tax Amount to be paid is "+(total + (salary-1500000)*0.3));
         }
     }
 }
