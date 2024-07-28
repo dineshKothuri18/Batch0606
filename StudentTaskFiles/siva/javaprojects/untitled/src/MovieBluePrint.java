@@ -1,5 +1,3 @@
-
-
 public class MovieBluePrint {
     public String movieName;
     public String heroName;
