@@ -1,4 +1,3 @@
-package Shiva1328;
 
 import java.util.Scanner;
 
