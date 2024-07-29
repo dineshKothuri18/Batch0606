@@ -84,7 +84,7 @@ public class Headquarters {
         //Bank 2 Details
         Bank HDFC = new Bank();
 
-        HDFC.Bank_name = "State Bank of India"; //Bank-2
+        HDFC.Bank_name = "HDFC BANK"; //Bank-2
         HDFC.branches = new ArrayList<>();
 
         branch1 = new Branch(); //Bank-2 --> Branch 1
