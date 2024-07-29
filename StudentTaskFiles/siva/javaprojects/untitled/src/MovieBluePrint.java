@@ -1,5 +1,3 @@
-package Shiva1328;
-
 public class MovieBluePrint {
     public String movieName;
     public String heroName;
