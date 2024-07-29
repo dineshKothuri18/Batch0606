@@ -1,0 +1,154 @@
+public class Oops {
+    public static void main(String[] args) {
+        Metro m1=new Metro();
+        m1.trainName="Coramandal";
+        m1.speed="100 km/h";
+        m1.colour="Black";
+        m1.fStationname="Secunderabad";
+        m1.lStationname="Miyapur";
+        m1.startTime="06:00 Am";
+        m1.stopTime="23:00 Pm";
+        m1.print();
+        m1.start();
+        m1.ticket();
+        m1.stop();
+        m1.clean();
+        m1.end();
+
+        Metro m2=new Metro();
+        m2.trainName="Metro Rail";
+        m2.speed="110 km/h";
+        m2.colour="Blue";
+        m2.fStationname="Ameerpet";
+        m2.lStationname="Miyapur";
+        m2.startTime="05:00 Am";
+        m2.stopTime="22:30 Pm";
+        m2.print();
+        m2.start();
+        m2.ticket();
+        m2.stop();
+        m2.clean();
+        m2.end();
+
+        Metro m3=new Metro();
+        m3.trainName="Metro Express";
+        m3.speed="120 km/h";
+        m3.colour="Red";
+        m3.fStationname="Secunderabad";
+        m3.lStationname="LB Nagar";
+        m3.startTime="07:00 Am";
+        m3.stopTime="23:00 Pm";
+        m3.print();
+        m3.start();
+        m3.ticket();
+        m3.stop();
+        m3.clean();
+        m3.end();
+
+        Metro m4=new Metro();
+        m4.trainName="Coramandal";
+        m4.speed="85 km/h";
+        m4.colour="Brown";
+        m4.fStationname="All stations";
+        m4.lStationname="Miyapur";
+        m4.startTime="08:00 Am";
+        m4.stopTime="23:00 Pm";
+        m4.print();
+        m4.start();
+        m4.ticket();
+        m4.stop();
+        m4.clean();
+        m4.end();
+
+        Metro m5=new Metro();
+        m5.trainName="Charminar";
+        m5.speed="140 km/h";
+        m5.colour="Gray";
+        m5.fStationname="Tirupati";
+        m5.lStationname="Miyapur";
+        m5.startTime="04:00 Am";
+        m5.stopTime="23:00 Pm";
+        m5.print();
+        m5.start();
+        m5.ticket();
+        m5.stop();
+        m5.clean();
+        m5.end();
+
+        Metro m6=new Metro();
+        m6.trainName="Coramandal";
+        m6.speed="110 km/h";
+        m6.colour="Black";
+        m6.fStationname="Secunderabad";
+        m6.lStationname="Miyapur";
+        m6.startTime="06:00 Am";
+        m6.stopTime="23:00 Pm";
+        m6.print();
+        m6.start();
+        m6.ticket();
+        m6.stop();
+        m6.clean();
+        m6.end();
+
+        Metro m7=new Metro();
+        m7.trainName="Coramandal";
+        m7.speed="150 km/h";
+        m7.colour="Black";
+        m7.fStationname="Secunderabad";
+        m7.lStationname="Miyapur";
+        m7.startTime="06:00 Am";
+        m7.stopTime="23:00 Pm";
+        m7.print();
+        m7.start();
+        m7.ticket();
+        m7.stop();
+        m7.clean();
+        m7.end();
+
+        Metro m8=new Metro();
+        m8.trainName="Gujarath Express";
+        m8.speed="100 km/h";
+        m8.colour="Black";
+        m8.fStationname="Secunderabad";
+        m8.lStationname="Gujarath";
+        m8.startTime="06:00 Am";
+        m8.stopTime="23:00 Pm";
+        m8.print();
+        m8.start();
+        m8.ticket();
+        m8.stop();
+        m8.clean();
+        m8.end();
+
+        Metro m9=new Metro();
+        m9.trainName="Chennai mail";
+        m9.speed="130 km/h";
+        m9.colour="pink";
+        m9.fStationname="Secunderabad";
+        m9.lStationname="Chennai";
+        m9.startTime="6 Am";
+        m9.stopTime="23 Pm";
+        m9.print();
+        m9.start();
+        m9.ticket();
+        m9.stop();
+        m9.clean();
+        m9.end();
+
+        Metro m10=new Metro();
+        m10.trainName="Coramandal";
+        m10.speed="100 km/h";
+        m10.colour="Black";
+        m10.fStationname="Chennai";
+        m10.lStationname="Secunderabad";
+        m10.startTime="6 Am";
+        m10.stopTime="23 Pm";
+        m10.print();
+        m10.start();
+        m10.ticket();
+        m10.stop();
+        m10.clean();
+        m10.end();
+
+    }
+}

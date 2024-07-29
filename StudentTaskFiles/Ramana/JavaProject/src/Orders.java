@@ -35,9 +35,9 @@ public class Orders {
         scanner.nextLine();
         System.out.println("enter ur name: ");
         String name = scanner.nextLine();
-        System.out.println("enter phn num: ");
+        System.out.println("enter phone number: ");
         String phnNum = scanner.nextLine();
-        System.out.println("enter ur add: ");
+        System.out.println("enter ur address: ");
         String address = scanner.nextLine();
         order.setUserInfo(name, phnNum, address);
         order.displayOrder();
