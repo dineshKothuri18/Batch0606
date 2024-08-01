@@ -24,4 +24,9 @@ public class Person {
         this.age = age;
         this.gender = gender;
     }
+
+    public void printPersonDetails(){
+        System.out.println(this.fName);
+        System.out.println(this.fName);
+    }
 }

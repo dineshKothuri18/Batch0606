@@ -3,13 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
+        ChildClass child1 = new ChildClass();
+        child1.middleName = "is a";
 
-
-        Person person1 = new Person("Sai","Mohit",10,'M',"sai.mohit@gmail.com");
-        System.out.println(person1.email);
-
-
-        Person p2 = new Person("Akhila","D",12,'F');
-        p2.email = "akhila@gmail.com";
+//        https://simplesnippets.tech/wp-content/uploads/2018/04/java-types-of-inheritance-1024x670.jpg
     }
 }
