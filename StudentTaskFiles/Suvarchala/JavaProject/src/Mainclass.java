@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Mainclasss {
+public class Mainclass {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         ArrayList<Staffnew> staffDetails = new ArrayList<>();
@@ -41,62 +41,63 @@ public class Mainclasss {
                 }
 
             }
-            switch(option)
-            {
+            switch(option) {
                 case 1:
                     System.out.println("select your branch: ");
                     int branchselection = sc.nextInt();
-                        if (bankselection == 1) {
-                                branchh = branch.get(branchselection-1);
-                                System.out.println(branchh);
-                                Staffnew staffAccountsbi = new Staffnew("sbi", branchh, "", "", "", 0,0);
-                                staffAccountsbi.staf();
-                                staffDetails.add(staffAccountsbi);
-                        } else if (bankselection == 2) {
-                                branchh = branch.get(branchselection+2);
-                                System.out.println(branchh);
-                                Staffnew staffAccountsbi = new Staffnew("union", branchh, "", "", "", 0,0);
-                                staffAccountsbi.staf();
-                                staffDetails.add(staffAccountsbi);
-                        } else {
-                                branchh = branch.get(branchselection+5);
-                                System.out.println(branchh);
-                                Staffnew staffAccountsbi = new Staffnew("icici", branchh, "", "", "", 0,0);
-                                staffAccountsbi.staf();
-                                staffDetails.add(staffAccountsbi);
+                    if (bankselection == 1) {
+                        branchh = branch.get(branchselection - 1);
+                        System.out.println(branchh);
+                        Staffnew staffAccountsbi = new Staffnew("sbi", branchh, "", "", "", 0, 0);
+                        staffAccountsbi.staf();
+                        staffDetails.add(staffAccountsbi);
+                    } else if (bankselection == 2) {
+                        branchh = branch.get(branchselection + 2);
+                        System.out.println(branchh);
+                        Staffnew staffAccountsbi = new Staffnew("union", branchh, "", "", "", 0, 0);
+                        staffAccountsbi.staf();
+                        staffDetails.add(staffAccountsbi);
+                    } else {
+                        branchh = branch.get(branchselection + 5);
+                        System.out.println(branchh);
+                        Staffnew staffAccountsbi = new Staffnew("icici", branchh, "", "", "", 0, 0);
+                        staffAccountsbi.staf();
+                        staffDetails.add(staffAccountsbi);
                     }
                     break;
                 case 2:
                     System.out.println("select your branch: ");
                     int branchselection1 = sc.nextInt();
-                        if (bankselection == 1) {
-                                branchh = branch.get(branchselection1-1);
-                                Accountholder customerAccountsbi = new Accountholder("sbi", branchh, "", "", "", 0,"","","","",0);
-                                customerAccountsbi.customer();
-                                customerDetails.add(customerAccountsbi);
-                        } else if (bankselection == 2) {
-                                branchh = branch.get(branchselection1+2);
-                                Accountholder customerAccountsbi = new Accountholder("union", branchh, "", "", "", 0,"","","","",0);
-                                customerAccountsbi.customer();
-                                customerDetails.add(customerAccountsbi);
-                        } else if(bankselection==3){
-                                branchh = branch.get(branchselection1-1);
-                                Accountholder customerAccountsbi = new Accountholder("icici", branchh, "", "", "", 0,"","","","",0);
-                                customerAccountsbi.customer();
-                                customerDetails.add(customerAccountsbi);
-                        }
+                    if (bankselection == 1) {
+                        branchh = branch.get(branchselection1 - 1);
+                        Accountholder customerAccountsbi = new Accountholder("sbi", branchh, "", "", "", 0, "", "", "", "", 0);
+                        customerAccountsbi.customer();
+                        customerDetails.add(customerAccountsbi);
+                    } else if (bankselection == 2) {
+                        branchh = branch.get(branchselection1 + 2);
+                        Accountholder customerAccountsbi = new Accountholder("union", branchh, "", "", "", 0, "", "", "", "", 0);
+                        customerAccountsbi.customer();
+                        customerDetails.add(customerAccountsbi);
+                    } else if (bankselection == 3) {
+                        branchh = branch.get(branchselection1 - 1);
+                        Accountholder customerAccountsbi = new Accountholder("icici", branchh, "", "", "", 0, "", "", "", "", 0);
+                        customerAccountsbi.customer();
+                        customerDetails.add(customerAccountsbi);
+                    }
                     break;
                 case 3:
                     System.out.println("select your branch: ");
                     int branchselection2 = sc.nextInt();
-                            for (Staffnew staff : staffDetails) {
-                                System.out.println(" employee Name: " + staff.employeename);
-                                System.out.println("employeeid: " +staff.count);
-                                System.out.println("employee Desigantion:" + staff.Designation);
-                                System.out.println("employee Salary:" + staff.Salary);
-                                System.out.println("name of the bank: " + staff.bankname);
-                                System.out.println("name of the branch:" + staff.branchname);
-                            }
+                    for (Staffnew staff : staffDetails) {
+                        System.out.println(" employee Name: " + staff.employeename);
+                        System.out.println("employeeid: " + staff.count);
+                        System.out.println("employee Desigantion:" + staff.Designation);
+                        System.out.println("employee Salary:" + staff.Salary);
+                        System.out.println("name of the bank: " + staff.bankname);
+                        System.out.println("name of the branch:" + staff.branchname);
+                    }
+                    break;
+
                 case 4:
                     System.out.println("select your branch: ");
                     int branchselection3 = sc.nextInt();
@@ -113,6 +114,7 @@ public class Mainclasss {
                         System.out.println("name of the bank:" + custt.bank);
                         System.out.println("account number:"+accountnumberstart+custt.count);
                     }
+                    break;
                 case 5:
                     for (Staffnew staff : staffDetails) {
                         String manager=staff.Designation;
@@ -125,6 +127,7 @@ public class Mainclasss {
                         System.out.println("name of the branch:" + staff.branchname);
                         }
                     }
+                    break;
 
                 case 6:
                     flag = false;
