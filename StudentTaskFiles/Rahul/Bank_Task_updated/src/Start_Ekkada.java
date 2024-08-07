@@ -2,19 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Start_Ekkada {
-    public static int sbicnt = 0;
-    public static int hdfcnt = 0;
-    public static int icicicnt = 0;
-    public static int sbiempcnt = 0;
-    public static int hdfempcnt = 0;
-    public static int iciciempcnt = 0;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         //Bank 1
         Bank sbi = new Bank();
         sbi.Bank_Name = "State Bank of India";
-        sbi.shortcut = "SBI ";
         sbi.branches = new ArrayList<>();
 
         // Bank-1 --> Branch 1
@@ -36,7 +28,6 @@ public class Start_Ekkada {
         // Bank-2
         Bank hdfc = new Bank();
         hdfc.Bank_Name = "HDFC BANK";
-        hdfc.shortcut = "HDFC ";
         hdfc.branches = new ArrayList<>();
         // Bank-2 --> Branch1
         branch1 = new Branch("Delhi", "HDFC 1328", "new delhi"); // Bank-1 --> Branch 1
@@ -57,7 +48,6 @@ public class Start_Ekkada {
         //Bank-3
         Bank icici = new Bank();
         icici.Bank_Name = "ICICI BANK";
-        icici.shortcut = "ICICI ";
         icici.branches = new ArrayList<>();
         //Bank-3 --> Branch-1
         branch1 = new Branch("Manipur", "ICICI 1328", "Imphal"); // Bank-1 --> Branch 1
@@ -141,7 +131,6 @@ public class Start_Ekkada {
         System.out.println("Please choose whose details you wanna display");
         System.out.println("1. Customer");
         System.out.println("2. Staff/Employee");
-        System.out.println("3. Managers Details");
         int p = sc.nextInt();
         switch (p) {
             case 1:
@@ -192,15 +181,8 @@ public class Start_Ekkada {
 
                 break;
             case 3:
-                System.out.println("The Managers Details of all Banks are");
-                System.out.println("-----------------------------------------------------------------");
-                System.out.format("|%-5s|%-20s|%-12s|%-15s|%-8s|","S.No","Employee Name","Employee ID","Designation","Salary");
-                System.out.println();
-                System.out.println("-----------------------------------------------------------------");
-                view_details(sbi);
-                view_details(hdfc);
-                view_details(icici);
-                System.out.println("-----------------------------------------------------------------");
+                rp = 0;
+                System.out.println("Bye Addminuuuu");
                 break;
             default:
                 System.out.println("please Enter a Valid input");
@@ -272,127 +254,53 @@ public class Start_Ekkada {
         String dob = sc.nextLine();
         System.out.println("Enter customers Fathers name");
         String fathersname = sc.nextLine();
-        String Account_number = Acc_ID(sbi,hyderabad);
-        System.out.println("Enter your age: ");
-        int age = sc.nextInt();
-        Customer customer = new Customer(Name, Account_type,Account_number,gender, dob, fathersname,age);
+        Customer customer = new Customer(Name, Account_type, gender, dob, fathersname);
         sbi.branches.get(sbi.branches.indexOf(hyderabad)).customers.add(customer);
     }
-    public static String Acc_ID(Bank sbi, Branch hyderabad){
-        String ans = "";
-        if(sbi.shortcut.equals("SBI")){
-            ans = ans+"9001";
-            sbiempcnt++;
-        }
-        else if(sbi.shortcut.equals("HDFC")){
-            ans = ans+"9002";
-            hdfempcnt++;
-        }
-        else if(sbi.shortcut.equals("ICICI")){
-            ans = ans+"9003";
-            iciciempcnt++;
-        }
-        if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Hyderabad")){
-            ans = ans+"8101";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Khammam")){
-            ans = ans+"8102";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Mumbai")){
-            ans = ans+"8103";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Delhi")){
-            ans = ans+"8201";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Chennai")){
-            ans = ans+"8202";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Bengaluru")){
-            ans = ans+"8203";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Manipur")){
-            ans = ans+"8301";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("UP")){
-            ans = ans+"8302";
-        }
-        else if(sbi.branches.get(sbi.branches.indexOf(hyderabad)).Branch_name.equals("Gujarat")){
-            ans = ans+"8303";
-        }
-        if(sbi.shortcut.equals("SBI")){
-            ans = ans+String.valueOf(sbiempcnt);
-        }
-        else if(sbi.shortcut.equals("HDFC")){
-            ans = ans+String.valueOf(hdfempcnt);
-        }
-        else if(sbi.shortcut.equals("ICICI")){
-            ans = ans+String.valueOf(iciciempcnt);
-        }
-        return ans;
-    }
+
 
     public static void Add_staff_details(Bank sbi, Branch hyderabad) {
-        int cnt = 0;
-        if(sbi.Bank_Name.equals("State Bank of India")){
-            cnt = sbicnt++;
-        }
-        if(sbi.Bank_Name.equals("HDFC BANK")){
-            cnt = hdfcnt++;
-        }
-        if(sbi.Bank_Name.equals("ICICI BANK")){
-            cnt = icicicnt++;
-        }
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Enter the Following Details:");
         System.out.println("Enter the Employee Name: ");
         String Employee_name = sc.nextLine();
-        System.out.println("Enter Designation");
+        System.out.println("Enter the Employee_ID");
+        int Employee_ID = sc.nextInt();
+        System.out.println("Enter Desigantion");
+        sc.nextLine();
         String Designation = sc.nextLine();
         System.out.println("Enter Salary for the Designation");
         int Salary = sc.nextInt();
-        System.out.println("Enter your age: ");
-        int age = sc.nextInt();
-        Employee employees = new Employee(Employee_name, sbi.shortcut+String.valueOf(cnt+1), Designation, Salary,age);
+        Employee employees = new Employee(Employee_name, Employee_ID, Designation, Salary);
         sbi.branches.get(sbi.branches.indexOf(hyderabad)).employees.add(employees);
     }
-    public static void view_details(Bank SBI){
-        for(int i = 0; i < SBI.branches.size();i++){
-            for(int j = 0; j < SBI.branches.get(i).employees.size();j++){
-                if(SBI.branches.get(i).employees.get(j).Designation.equals("Manager")) {
-                    System.out.format("|%-5d|%-20s|%-12s|%-15s|%-8s|", (j + 1), SBI.branches.get(i).employees.get(j).Name, SBI.branches.get(i).employees.get(j).employee_ID, SBI.branches.get(i).employees.get(j).Designation, SBI.branches.get(i).employees.get(j).Salary);
-                    System.out.println();
-                }
-            }
 
-        }
-    }
     public static void view_details(Bank SBI , Branch b, int p) {
-
         switch (p){
             case 1:
                     System.out.println("The Employees Details of "+SBI.Bank_Name+" "+SBI.branches.get(SBI.branches.indexOf(b)).Branch_name+" Branch.");
-                    System.out.println("-----------------------------------------------------------------------");
-                    System.out.format("|%-5s|%-20s|%-12s|%-10s|%-15s|%-8s|","S.No","Employee Name","Employee ID","Age","Designation","Salary");
+                    System.out.println("-----------------------------------------------------------------");
+                    System.out.format("|%-5s|%-20s|%-12s|%-15s|%-8s|","S.No","Employee Name","Employee ID","Designation","Salary");
                     System.out.println();
-                    System.out.println("-----------------------------------------------------------------------");
+                    System.out.println("-----------------------------------------------------------------");
                     for(int j = 0; j < SBI.branches.get(SBI.branches.indexOf(b)).employees.size();j++){
-                        System.out.format("|%-5d|%-20s|%-12s|%-10d|%-15s|%-8s|",(j+1),SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Name,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).employee_ID,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Age,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Designation,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Salary);
+                        System.out.format("|%-5d|%-20s|%-12d|%-15s|%-8s|",(j+1),SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).employee_Name,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).employee_ID,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Designation,SBI.branches.get(SBI.branches.indexOf(b)).employees.get(j).Salary);
                         System.out.println();
                     }
-                    System.out.println("-----------------------------------------------------------------------------");
+                    System.out.println("-----------------------------------------------------------------");
                     break;
             case 0:
-                    System.out.println("The Customer Details of "+SBI.Bank_Name+" "+SBI.branches.get(SBI.branches.indexOf(b)).Branch_name+" Branch.");
-                    System.out.println("--------------------------------------------------------------------------------------");
-                    System.out.format("|%-5s|%-20s|%-12s|%-8s|%-8s|%-8s|%-20s|","S.No","Customer Name","Account Type","Age","Gender","DOB","Fathers Name");
+                System.out.println("The Customer Details of "+SBI.Bank_Name+" "+SBI.branches.get(SBI.branches.indexOf(b)).Branch_name+" Branch.");
+                System.out.println("--------------------------------------------------------------------------------");
+                System.out.format("|%-5s|%-20s|%-12s|%-8s|%-8s|%-20s|","S.No","Customer Name","Account Type","Gender","DOB","Fathers Name");
+                System.out.println();
+                System.out.println("--------------------------------------------------------------------------------");
+                for(int i = 0; i < SBI.branches.get(SBI.branches.indexOf(b)).customers.size();i++){
+                    System.out.format("|%-5s|%-20s|%-12s|%-8s|%-8s|%-20s|",(i+1),SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Name,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Account_type,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Gender,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Date_of_birth,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Father_name);
                     System.out.println();
-                    System.out.println("--------------------------------------------------------------------------------------");
-                    for(int i = 0; i < SBI.branches.get(SBI.branches.indexOf(b)).customers.size();i++){
-                        System.out.format("|%-5s|%-20s|%-12s|%-8d|%-8s|%-8s|%-20s|",(i+1),SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Name,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Account_type,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Age,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Gender,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Date_of_birth,SBI.branches.get(SBI.branches.indexOf(b)).customers.get(i).Father_name);
-                        System.out.println();
-                    }
-                    System.out.println("--------------------------------------------------------------------------------------");
-                    break;
+                }
+                System.out.println("--------------------------------------------------------------------------------");
+                break;
         }
     }
 }
