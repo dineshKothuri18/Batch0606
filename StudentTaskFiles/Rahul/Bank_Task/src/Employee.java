@@ -1,12 +1,12 @@
-public class Employee {
-    String employee_Name;
-    int employee_ID;
+public class Employee extends Basic_details{
+    String employee_ID;
     String Designation;
     int Salary;
-    Employee(String employee_Name,int employee_ID,String Designation,int Salary){
-        this.employee_Name = employee_Name;
+    Employee(String Name,String employee_ID,String Designation,int Salary,int Age){
+        this.Name = Name;
         this.employee_ID = employee_ID;
         this.Designation = Designation;
         this.Salary = Salary;
+        this.Age = Age;
     }
 }

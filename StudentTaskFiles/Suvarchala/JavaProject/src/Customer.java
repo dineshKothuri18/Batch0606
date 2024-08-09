@@ -24,7 +24,7 @@ public class Customer {
     }
 
     public void checkcust() {
-        custname.add("suvarchala");
+        custname.add("sri");
         accountnum.add("9999999999");
         fathername.add("vasu");
         totalbalance.add("1");
@@ -32,81 +32,37 @@ public class Customer {
         custage.add("12");
         custgender.add("Female");
         custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
+        custemail.add("sri99@gmail.com");
         custadress.add("kphb\nhyderabad");
         custadhno.add("2233322333");
 
-        custname.add("suvarchala");
+        custname.add("siva");
         accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
-        accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
+        fathername.add("srinivas");
+        totalbalance.add("2");
+        accifsccode.add("SBI0023");
+        custage.add("16");
+        custgender.add("male");
         custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
+        custemail.add("siva99@gmail.com");
         custadress.add("kphb\nhyderabad");
         custadhno.add("2233322333");
 
-        custname.add("suvarchala");
+        custname.add("sai");
         accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
+        fathername.add("venkat");
+        totalbalance.add("3");
         accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
+        custage.add("25");
+        custgender.add("male");
         custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
+        custemail.add("sai99@gmail.com");
         custadress.add("kphb\nhyderabad");
         custadhno.add("2233322333");
 
-        custname.add("suvarchala");
-        accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
-        accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
-        custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
-        custadress.add("kphb\nhyderabad");
-        custadhno.add("2233322333");
 
-        custname.add("suvarchala");
-        accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
-        accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
-        custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
-        custadress.add("kphb\nhyderabad");
-        custadhno.add("2233322333");
 
-        custname.add("suvarchala");
-        accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
-        accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
-        custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
-        custadress.add("kphb\nhyderabad");
-        custadhno.add("2233322333");
 
-        custname.add("suvarchala");
-        accountnum.add("9999999999");
-        fathername.add("vasu");
-        totalbalance.add("1");
-        accifsccode.add("SBI0022");
-        custage.add("12");
-        custgender.add("Female");
-        custphoneno.add("6301605214");
-        custemail.add("suvarchala99@gmail.com");
-        custadress.add("kphb\nhyderabad");
-        custadhno.add("2233322333");
 
 
         String cuscheck = bb1.getcustname();
