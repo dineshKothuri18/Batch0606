@@ -140,8 +140,8 @@ public class Main {
         System.out.println("----------------------------------------------------------------------------------------------");
         System.out.format("|%-30s|%-30s|%-30s|\n","Processor",products_List.get(i).processor,products_List.get(j).processor);
         System.out.format("|%-30s|%-30s|%-30s|\n","Price",products_List.get(i).Price,products_List.get(j).Price);
-        System.out.format("|%-30s|%-30s|%-30s|\n","Price",products_List.get(i).weight,products_List.get(j).weight);
-        System.out.format("|%-30s|%-30s|%-30s|\n","Price",products_List.get(i).dimensions,products_List.get(j).dimensions);
+        System.out.format("|%-30s|%-30s|%-30s|\n","Weight (in gm)",products_List.get(i).weight,products_List.get(j).weight);
+        System.out.format("|%-30s|%-30s|%-30s|\n","Dimensions (in mm)",products_List.get(i).dimensions,products_List.get(j).dimensions);
         System.out.format("|%-30s|%-30s|%-30s|\n","Number of sim slots",products_List.get(i).simslots,products_List.get(j).simslots);
         System.out.format("|%-30s|%-30s|%-30s|\n","Battery capacity",products_List.get(i).battery,products_List.get(j).battery);
         System.out.println("----------------------------------------------------------------------------------------------");
