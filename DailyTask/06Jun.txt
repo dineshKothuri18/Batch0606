@@ -1,2 +1,0 @@
-O6-June-2024
-Print your bio data name, age,phn,email,address,education, hobbies,
