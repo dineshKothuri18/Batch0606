@@ -24,7 +24,7 @@ public class StudentInfo {
         int c = Math.max(javaMarks[i],htmlMarks[i]);
         int d = Math.max(sqlMarks[i],jsMarks[i]);
         int maximum = Math.max(a, b);
-        float percentage = (((float)sum)*100)/400;
+        float percentage = (((float)sum)*100)/400
 
         if(javaMarks[i]>=27 && htmlMarks[i]>=27 && sqlMarks[i]>=27 &&jsMarks[i]>=27) {
 

@@ -292,11 +292,19 @@ public class Main {
                 String[] Array1=Data.split("@");
 
                 if (Array1.length==2) {
+<<<<<<< HEAD
                     flag = Arrays.stream(Emailsets).anyMatch(N -> N.equals(Array1[1]));
 
                 }
                 else{
                     flag=false;
+=======
+                     flag = Arrays.stream(Emailsets).anyMatch(N -> N.equals(Array1[1]));
+
+                }
+                else{
+                     flag=false;
+>>>>>>> ce2b456b8ae1b5e7bd114c6bbb685538b38b00ef
                 }
                 break;
             case 2:
