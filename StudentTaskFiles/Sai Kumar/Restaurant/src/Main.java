@@ -18,7 +18,7 @@ public class Main {
         do {
             System.out.println("\nMenu:");
             System.out.println("1. Menu Intake");
-            System.out.println("2. View Cart")
+            System.out.println("2. View Cart");
             System.out.println("3. Proceed to Buy");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");

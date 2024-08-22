@@ -1,0 +1,41 @@
+select * from union1
+select * from union2
+select a.id,b.id from union1 a full join union2 b
+on a.id=b.id
+
+-->self join : join the data based on single table.
+	syntax : select col1,col2,......
+		from table1 aliase1 join table1 aliase2
+		on aliase1.commonco1=aliase2.commoco1
+
+->how to find out which out emp under manager
+
+ select * from emp
+ 
+ select e1.ename as employee,e2.ename as manager 
+ from emp e1 join emp e2
+ on e1.mrg=e2.empno 
+
+->which employee getting more than their manager
+ 
+  
+ select e1.ename as employee,e1.sal,e2.sal,e2.ename as manager ,e2.Sal
+ from emp e1 join emp e2
+ on e1.mrg=e2.empno
+ 
+and e1.sal>e2.sal
+
+-->cross join : based on the Cartesian product returns the multiple rows from the multiple tables 
+	syntax: Select col1,col2,...from table1,table2
+	ex:-
+		
+
+->how to find location wise no.of employees
+	select * from emp
+	select * from dept
+	select concatt(a.empno)employee, b.loc from emp a right join deptno
+	on a.deptno=b.deptno
+
+
+
+
