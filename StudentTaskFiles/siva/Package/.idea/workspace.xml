@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c89a24e-734d-4d94-99d2-643d41fbd3e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../OOPS Concepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS Concepts/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c89a24e-734d-4d94-99d2-643d41fbd3e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +25,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Siva__1328",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
