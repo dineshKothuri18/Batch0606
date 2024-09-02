@@ -1,0 +1,35 @@
+MYSQL 
+
+MYSQL Workbench
+
+CRUD - Create Read Update Delete
+
+CREATE TABLE customerDetails(
+customerId INT PRIMARY KEY AUTO_INCREMENT,
+customerName VARCHAR(255) NOT NULL,
+phoneNumber VARCHAR(20) NOT NULL,
+address VARCHAR(255) NOT NULL,
+email VARCHAR(255) UNIQUE
+
+);
+
+INSERT INTO customerDetails(customerId,customerName,phoneNumber,address,email)
+VALUES 	
+    (1006,"Sai deepa","9704563832","Jntu","deepa@gmail.com"),
+    (1007,"Lakshmi Chaitanya","9704563832","Jntu","chaitanya@mail.com");
+    
+SELECT customerName, phoneNumber FROM customerDetails;
+Error Code: 1364. Field 'phoneNumber' doesn't have a default value
+
+
+Error Code: 1364. Field 'address' doesn't have a default value
+
+
+Error Code: 1062. Duplicate entry '1002' for key 'customerdetails.PRIMARY'
+
+Error Code: 1364. Field 'customerId' doesn't have a default value
+
+Error Code: 1136. Column count doesn't match value count at row 1
+
+
+
