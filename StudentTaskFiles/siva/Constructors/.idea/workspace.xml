@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb87074-5906-46dd-bfd4-5baf0c7d7a6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Package/src/Package/Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Package/src/Package/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Package/src/Package/MobileDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOPS Concepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOPS Concepts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Package/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Package/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
