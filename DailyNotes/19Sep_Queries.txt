@@ -1,0 +1,59 @@
+Practice 
+Joins(Left,Right,Self), GroupBy, 
+
+
+
+1.Total Items per Menu and Restaurant
+Write a query to display the RestaurantID, MenuID, and the total number of items in each menu for each restaurant.
+------------------------------------
+RestaurantName, MenuName, ItemCount
+------------------------------------
+
+Filter out restaurants that have fewer than 3 items in a menu.
+
+------------------------------------
+RestaurantName, MenuName, ItemCount
+------------------------------------
+
+2. Top 5 Most Expensive Items
+Write a query to find the top 5 most expensive items across all menus. Display the 
+-------------------------------------------
+ITEMNAME, PRICE, MenuName, RestaurantName
+-------------------------------------------
+
+3. Average Price of Items by Restaurant
+Write a query to calculate the average price of items for each RestaurantID. Show 
+-------------------------------------------
+RestaurantID, RestaurantName, AVG(Price)
+-------------------------------------------
+
+
+4. Menus with No Items
+Write a query to display all MenuIDs and their corresponding MenuNames that have no items listed in the Items table.
+------------------
+MenuId, MenuName
+------------------
+
+
+5. Restaurants with the Highest Reviews
+Write a query to find the top 3 restaurants with the highest average ResReview. Display the RestaurantID, RestaurantName, and the average review score.
+------------------------------------
+RestaurantID, RestaurantName, Review
+------------------------------------
+
+
+
+6. Menus Containing Specific Items
+Write a query to list the MenuID, MenuName, and RestaurantName for all menus that contain an item with the name Burger.
+7. Total Number of Menus per Restaurant
+Write a query to display the total number of menus for each restaurant. Show RestaurantID, RestaurantName, and the total number of menus.
+8. Restaurants with No Reviews
+Write a query to find all restaurants that do not have any reviews (ResReview is NULL or 0). Show the RestaurantID and RestaurantName.
+9. Cheapest Item per Restaurant
+Write a query to display the ITEMNAME, PRICE, RestaurantID, and RestaurantName for the cheapest item in each restaurant.
+10. Menu Information for a Specific Restaurant
+Write a query to display all menus (MenuID, MenuName) along with the number of items in each menu for a specific restaurant (e.g., RestaurantID = 5).
+11. Items with No Price
+Write a query to find all items where the price is NULL or 0. Display ITEMID, ITEMNAME, MenuID, and RestaurantID.
+12. Popular Restaurants Based on Reviews
+Write a query to display the top 3 restaurants based on the highest number of reviews (ResReview). Display RestaurantID, RestaurantName, and the total number of reviews.

@@ -1,0 +1,71 @@
+CREATE TABLE customerDetails(
+customerId INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(100) UNIQUE,
+phone VARCHAR(20) NOT NULL,
+address VARCHAR(255) NOT NULL
+);
+
+INSERT INTO customerDetails(name,email,phone,address)
+VALUES 
+	("Kavya Sri","KavyaSri@gmail.com","7842672838","Kphb"),
+    ("Vamsi","Vamsi@gmail.com","9392398002","Kukatpally"),
+     ("Rahul","Rahul@gmail.com","9014193985","Jntu");
+    
+SELECT * FROM customerDetails;
+
+INSERT INTO customerDetails(customerId, name,email,phone,address)
+VALUES 
+	(1001,"Vijaya Lakshmi","vijaya@gmail.com","9381602344","Kphb");
+    
+    
+INSERT INTO customerDetails(name,email,phone,address)
+VALUES 
+	("Sai Charan","cherry@gmail.com","9704563832","Kphb");
+
+    
+
+
+---------------------------------
+
+CREATE TABLE menuList(
+menuId INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL UNIQUE
+);
+
+INSERT INTO menuList(menuId,name)
+VALUES (1001,"TIFFINS");
+
+SELECT * FROM menuList;
+
+INSERT INTO menuList(name)
+VALUES 	
+	("VEG ITEMS"),
+    ("NON-VEG ITEMS"),
+    ("SOUPS"),
+    ("DRINKS"),
+    ("DESSERTS"),
+    ("STARTERS");    
+    
+
+    
+---------------------------------
+
+
+Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`bojanam`.`itemlist`, CONSTRAINT `itemlist_ibfk_1` FOREIGN KEY (`menuId`) REFERENCES `menulist` (`menuId`))
+
+CREATE TABLE itemList(
+itemId INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+price INT NOT NULL,
+menuId INT NOT NULL,
+image VARCHAR(255),
+FOREIGN KEY(menuId) REFERENCES menuList(menuId)
+);
+
+SELECT * FROM menulist;
+
+ INSERT INTO itemList(itemId,name,price,menuId,image)
+ VALUES(2001,"CHITTI IDDLY ",40,1001,"https://i.ytimg.com/vi/3y4RNBc_nNo/maxresdefault.jpg");
+
+
