@@ -57,3 +57,29 @@ Write a query to display all menus (MenuID, MenuName) along with the number of i
 Write a query to find all items where the price is NULL or 0. Display ITEMID, ITEMNAME, MenuID, and RestaurantID.
 12. Popular Restaurants Based on Reviews
 Write a query to display the top 3 restaurants based on the highest number of reviews (ResReview). Display RestaurantID, RestaurantName, and the total number of reviews.
+
+
+
+13.Customers that visited a Restaurant Maximum times
+Write a query to display 
+CustomerName PhoneNumber RestaurantName VisitedCount
+
+14.Write a query to Find the Maximum bill amount on a particular day for all the restaurants
+CustomerName, Date, BillAmount, Restaurant
+
+15.Find the item that orderded most in the entire menu
+ItemName Cost
+
+16.Write a query to find the employee whose not a having a single leave
+EmployeeName RestaurantName
+
+
+
+
+
+
+
+
+
+
+
